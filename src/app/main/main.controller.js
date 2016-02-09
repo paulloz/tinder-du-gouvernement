@@ -6,7 +6,7 @@ export class MainController {
         this.$scope = $scope;
         this.$scope.score = 0;
         this.done = 0;
-        this.$scope.deckSize = 10;
+        this.$scope.deckSize = 15;
 
         this.$scope.ending = [];
 
