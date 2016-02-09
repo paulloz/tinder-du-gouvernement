@@ -34,9 +34,14 @@
                 <button class="ko" ng-click="ko(true)"><i class="fa fa-times"></i></button>
             </div>
             <div ng-if="hasEnded()">
-                <p>
+                <p style="font-size:1.5em;">
                     Ton score est de {{ score }}&nbsp;/&nbsp;{{ deckSize }}&nbsp;!
                 </p>
+                <p>
+                    <button ng-click="shareOnTwitter"><i class="fa fa-twitter"></i></button>
+                    <button ng-click="restart"><i class="fa fa-refresh"></i></button>
+                </p>
+                <hr>
                 <ul>
                     <li ng-repeat="item in ending" ng-class="{ 'ok' : item.ok }">
                         {{ item.label }}

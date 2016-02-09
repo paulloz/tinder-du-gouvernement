@@ -31,6 +31,29 @@ html, body {
         font-size: .9em;
         text-align: center;
         color: @text-color;
+
+        button {
+            position: static;
+            width: auto;
+            height: auto;
+            padding: .5em;
+
+            font-size: 1.5em;
+
+            &:first-of-type {
+                color: #298dfd;
+            }
+
+            &:last-of-type {
+                color: #fcd261;
+            }
+
+            .fa {
+                position: static;
+
+                .prefixed(transform, unset);
+            }
+        }
     }
 }
 
