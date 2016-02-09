@@ -29,6 +29,15 @@
     </head>
     <body>
         <div class="container" ng-controller="MainController as main" ng-class="{'end':hasEnded()}">
+            <div class="match-overlay" ng-class="{'match-overlay--show':isItAMatch()}">
+                <!-- <p class="match-overlay__itsamatch">It's a Match!</p> -->
+                <img src="assets/images/itsamatch.png">
+                <img width="100" ng-src="{{getMatchImageSrc()}}">
+                <p>
+                    {{itsamatch.surname}} {{itsamatch.name}} est bien {{itsamatch.title}}.
+                </p>
+                <a class="match-overlay__continue" ng-click="continue()">Continuer</a>
+            </div>
             <div class="container" ng-if="!hasEnded()">
                 <p>
                     <span ng-if="hasStarted()">Cette personne fait-elle partie du gouvernement&nbsp;?</span>

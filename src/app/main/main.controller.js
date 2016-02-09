@@ -8,6 +8,8 @@ export class MainController {
         this.done = -1;
         this.$scope.deckSize = 15;
 
+        this.$scope.itsamatch = null;
+
         this.$scope.ending = [];
 
         $http.get('assets/tsv/all.tsv').then(response => {
@@ -25,12 +27,33 @@ export class MainController {
             this.$scope.persons = this.deck;
         });
 
+        this.$scope.isItAMatch = this.isItAMatch.bind(this);
+        this.$scope.continue = this.continue.bind(this);
+        this.$scope.getMatchImageSrc = this.getMatchImageSrc.bind(this);
         this.$scope.ok = this.ok.bind(this);
         this.$scope.ko = this.ko.bind(this);
         this.$scope.hasStarted = this.hasStarted.bind(this);
         this.$scope.hasEnded = this.hasEnded.bind(this);
         this.$scope.shareOnTwitter = this.shareOnTwitter.bind(this);
         this.$scope.restart = this.restart;
+    }
+
+    isItAMatch() {
+        return this.$scope.itsamatch != null;
+    }
+
+    match(match) {
+        this.$scope.itsamatch = match;
+    }
+
+    continue() {
+        this.$scope.itsamatch = null;
+    }
+
+    getMatchImageSrc() {
+        return this.$scope.itsamatch == null
+            ? ''
+            : `assets/images/${this.$scope.itsamatch.name.toLowerCase().replace(/ /g, '-')}.jpg`;
     }
 
     removeLastPerson(ok) {
@@ -57,6 +80,7 @@ export class MainController {
         const execute = () => {
             if (this.done >= 0) {
                 if (this.isLastPartOf()) {
+                    this.match(_.last(this.$scope.persons));
                     ++this.$scope.score;
                 }
                 _.last(this.$scope.persons).ok = this.isLastPartOf();

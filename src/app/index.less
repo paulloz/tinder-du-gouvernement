@@ -33,7 +33,9 @@ html, body {
         color: @text-color;
 
         button {
-            position: static;
+            position: relative;
+            top: 0;
+            left: 0;
             width: auto;
             height: auto;
             padding: .5em;
@@ -54,6 +56,74 @@ html, body {
                 .prefixed(transform, unset);
             }
         }
+    }
+}
+
+.match-overlay {
+    display: none;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+
+    background: rgba(0, 0, 0, .95);
+
+    text-align: center;
+
+    pointer-events: none;
+
+    .prefixed(transition, opacity 200ms ease);
+
+    &--show {
+        display: block;
+
+        pointer-events: all;
+    }
+
+    img:first-of-type {
+        margin: 1.5em 0;
+        max-width: 90%;
+    }
+
+    img:last-of-type {
+        border-style: solid;
+        border-width: 2pt;
+        border-color: #ffffff;
+        border-radius: 200%;
+    }
+
+    p {
+        margin: 1em 2em;
+
+        text-align: left;
+        color: #ffffff;
+    }
+
+    &__itsamatch {
+        text-align: center !important;
+        font-size: 2em !important;
+        font-family: serif;
+    }
+
+    &__continue {
+        position: absolute;
+        bottom: 3em;
+        left: 50%;
+
+        padding: .5em 1em;
+        margin: 0 auto;
+
+        border-style: solid;
+        border-width: 2pt;
+        border-color: #ffffff;
+        border-radius: .3em;
+
+        color: #fff;
+
+        .prefixed(transform, translate(-50%, 0));
     }
 }
 
