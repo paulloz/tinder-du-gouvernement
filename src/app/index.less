@@ -1,0 +1,150 @@
+// bower:less
+// endbower
+
+@text-color: #888888;
+@ok-color: #64dd9a;
+@ko-color: #fe6951;
+
+.prefixed(@property, @value) {
+    -webkit-@{property}: @value;
+       -moz-@{property}: @value;
+        -ms-@{property}: @value;
+         -o-@{property}: @value;
+            @{property}: @value;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100%;
+
+    .prefixed(box-sizing, border-box);
+
+    p {
+        font-size: .9em;
+        text-align: center;
+        color: @text-color;
+    }
+}
+
+.cards {
+    position: relative;
+
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+
+    .prefixed(transform, translateY(4%));
+}
+
+button {
+    position: absolute;
+    bottom: 5vw;
+
+    width: 20vw;
+    height: 20vw;
+    padding: 0;
+    margin: 0;
+
+    border-style: solid;
+    border-width: 7pt;
+    border-color: #f1eef7;
+    border-radius: 200%;
+
+    background-color: #ffffff;
+
+    font-size: 3em;
+    line-height: 0;
+
+    .fa {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        .prefixed(transform, translate(-50%, -50%));
+    }
+
+    &.ok {
+        right: 25%;
+
+        font-size: 2.5em;
+        color: @ok-color !important;
+
+        .fa {
+            .prefixed(transform, translate(-50%, -45%));
+        }
+    }
+
+    &.ko {
+        left: 25%;
+
+        color: @ko-color !important;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 1em 2em 2em 2em;
+
+    list-style-type: none;
+
+    text-align: left;
+
+    li {
+        padding: .5em 0;
+
+        color: #fe6951;
+
+        &.ok {
+            color: #64dd9a;
+        }
+    }
+}
+
+.plz, .about {
+    position: absolute;
+    bottom: .1em;
+
+    color: @text-color;
+    font-size: .7em;
+}
+
+.plz {
+    right: .2em;
+}
+
+.about {
+    left: .2em;
+}
+
+.end {
+    overflow-y: auto;
+
+    > div {
+        text-align: center;
+    }
+
+    .plz, .about {
+        position: static;
+
+        font-size: 1em;
+    }
+
+    .plz {
+        float: right;
+    }
+
+    .about {
+        float: left;
+    }
+}
+
+// injector
+// endinjector

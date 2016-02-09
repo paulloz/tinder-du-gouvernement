@@ -1,0 +1,68 @@
+ID	Nom	Prénom	H/F	Gouvernement	Poste
+1	Valls	Manuel	H	1	Premier Ministre
+2	Le Guen	Jean-Marie	H	1	Secrétaire d'État aux Relations avec le Parlement, auprès du Premier ministre
+3	Valter	Clotilde	F	1	Secrétaire d’État chargée de la Réforme de l’État et de la Simplification auprès du Premier ministre
+4	Fabius	Laurent	H	1	Ministre des Affaires étrangères et du Développement international
+5	Désir	Harlem	H	1	Secrétaire d’État aux Affaires européennes, auprès du ministre des Affaires étrangères et du Développement international
+6	Girardin	Annick	F	1	Secrétaire d'État au Développement et à la Francophonie, auprès du ministre des Affaires étrangères et du Développement international
+7	Fekl	Matthias	H	1	Secrétaire d'État chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger, auprès du ministre des Affaires étrangères et du Développement international
+8	Royal	Ségolène	F	1	Ministre de l’Écologie, du Développement durable et de l’Énergie
+9	Vidalies	Alain	H	1	Secrétaire d'État chargé des Transports, de la Mer et de la Pêche, auprès de la ministre de l'Écologie, du Développement durable et de l'Énergie
+10	Vallaud-Belkacem	Najat	F	1	Ministre de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche
+11	Mandon	Thierry	H	1	Secrétaire d’État chargé de l’Enseignement supérieur et de la Recherche, auprès de la ministre de l’Éducation nationale, de l’Enseignement supérieur et de la Recherche
+12	Urvoas	Jean-Jacques	H	1	Garde des Sceaux, ministre de la Justice
+13	Sapin	Michel	H	1	Ministre des Finances et des Comptes publics
+14	Eckert	Christian	H	1	Secrétaire d’État au Budget, auprès du ministre des Finances et des Comptes publics
+15	Le Drian	Jean-Yves	H	1	Ministre de la Défense
+16	Todeschini	Jean-Marc	H	1	Secrétaire d’État chargé des Anciens Combattants et de la Mémoire, auprès du ministre de la Défense
+17	Touraine	Marisol	F	1	Ministre des Affaires sociales, de la Santé et des Droits des femmes
+18	Rossignol	Laurence	F	1	Secrétaire d’État chargée de la Famille, de l’Enfance, des Personnes âgées, et de l’Autonomie, auprès de la ministre des Affaires sociales, de la Santé et des Droits des femmes
+19	Neuville	Ségolène	F	1	Secrétaire d'État chargée des Personnes handicapées et de la Lutte contre l'exclusion, auprès de la ministre des Affaires sociales, de la Santé et des Droits des femmes
+20	Boistard	Pascale	F	1	Secrétaire d'État chargée des Droits des femmes, auprès de la ministre des Affaires sociales, de la Santé et des Droits des femmes
+21	El Khomri	Myriam	F	1	Ministre du Travail, de l’Emploi, de la Formation professionnelle et du Dialogue social
+22	Cazeneuve	Bernard	H	1	Ministre de l'Intérieur
+23	Le Foll	Stéphane	H	1	Ministre de l’Agriculture, de l’Agroalimentaire et de la Forêt, Porte-parole du Gouvernement
+24	Macron	Emmanuel	H	1	Ministre de l'Économie, de l'Industrie et du Numérique
+25	Lemaire	Axelle	F	1	Secrétaire d'État chargée du Numérique, auprès du ministre de l'Économie, de l'Industrie et du Numérique
+26	Pinville	Martine	F	1	Secrétaire d’État chargée du Commerce, de l'Artisanat, de la Consommation et de l'Economie sociale et solidaire, auprès du ministre de l'Économie, de l'Industrie et du Numérique
+27	Pinel	Sylvia	F	1	Ministre du Logement, de l'Egalité des territoires et de la Ruralité
+28	Lebranchu	Marylise	F	1	Ministre de la Décentralisation et de la Fonction publique
+29	Vallini	André	H	1	Secrétaire d’État à la Réforme territoriale, auprès de la ministre de la Décentralisation et de la Fonction publique
+30	Pellerin	Fleur	F	1	Ministre de la Culture et de la Communication
+31	Kanner	Patrick	H	1	Ministre de la Ville, de la Jeunesse et des Sports
+32	Braillard	Thierry	H	1	Secrétaire d'État aux Sports, auprès du ministre de la Ville, de la Jeunesse et des Sports
+33	Pau-Langevin	George	F	1	Ministre des Outre-Mer
+34	Hollande	François	H	0	.
+35	Lefebvre	Frédéric	H	0	.
+36	Ayrault	Jean-Marc	H	0	.
+37	Coronado	Sergio	H	0	.
+38	Aubry	Martine	F	0	.
+39	Attard	Isabelle	F	0	.
+40	Castaner	Christophe	H	0	.
+41	Placé	Jean-Vincent	H	0	.
+42	Rebsamen	François	H	0	.
+43	Bertrand	Xavier	H	0	.
+44	Bartolone	Claude	H	0	.
+45	Dufay	Marie-Guite	F	0	.
+46	Taubira	Christiane	F	0	.
+47	Duflot	Cécile	F	0	.
+48	Leroux	Bruno	H	0	.
+49	Juppé	Alain	H	0	.
+50	Cosse	Emmanuelle	F	0	.
+51	Cambadelis	Jean-Christophe	H	0	.
+52	Lignières-Cassou	Martine	F	0	.
+53	Bachelot	Roselyne	F	0	.
+54	Pécresse	Valérie	F	0	.
+55	Boutin	Christine	F	0	.
+56	Hulot	Nicolas	H	0	.
+57	Filippetti	Aurélie	F	0	.
+58	Borloo	Jean-Louis	H	0	.
+59	Bricq	Nicole	F	0	.
+60	Fourneyron	Valérie	F	0	.
+61	Montebourg	Arnaud	H	0	.
+62	Hamon	Benoît	H	0	.
+63	Moscovici	Pierre	H	0	.
+64	Batho	Delphine	F	0	.
+65	Peillon	Vincent	H	0	.
+66	Fioraso	Geneviève	F	0	.
+67	Delaunay	Michèle	F	0	.
