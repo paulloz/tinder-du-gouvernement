@@ -28,6 +28,7 @@ export class MainController {
         this.$scope.ok = this.ok.bind(this);
         this.$scope.ko = this.ko.bind(this);
         this.$scope.hasEnded = this.hasEnded.bind(this);
+        this.$scope.shareOnTwitter = this.shareOnTwitter.bind(this);
         this.$scope.restart = this.restart;
     }
 
@@ -89,6 +90,15 @@ export class MainController {
 
     hasEnded() {
         return this.done >= this.$scope.deckSize;
+    }
+
+    shareOnTwitter() {
+        const text = `J'ai fait ${this.$scope.score}/${this.$scope.deckSize} au Tinder du Gouvernement ! Tu pense pouvoir me battre ? ${window.location.href} via @pauljoannon`;
+        window.open(
+            `https://twitter.com/intent/tweet?original_referer=&text=${encodeURIComponent(text)}`,
+            '',
+            'width=575,height=400,menubar=no,toolbar=no'
+        );
     }
 
     restart() {
