@@ -33,7 +33,7 @@
                 <p>
                     Cette personne fait-elle partie du gouvernement&nbsp;?
                 </p>
-                <div class="cards">
+                <div class="cards" ng-swipe-right="ok(true)" ng-swipe-left="ko(true)">
                     <card ng-repeat="person in persons" person="person"></card>
                 </div>
                 <button class="ok" ng-click="ok(true)"><i class="fa fa-heart"></i></button>
