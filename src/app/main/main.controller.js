@@ -36,7 +36,7 @@ export class MainController {
         if (last.isPartOf) {
             label += (last.ok ? ' est bien ' : ' est en fait ') + last.title + '.';
         } else {
-            label += last.ok ? ' ne fait en effet pas parti du gouvernement.' : ' ne fait pas parti du gouvernement.';
+            label += last.ok ? ' ne fait en effet pas partie du gouvernement.' : ' ne fait pas partie du gouvernement.';
         }
         this.$scope.ending.push({
             ok : last.ok,
