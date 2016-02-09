@@ -28,6 +28,7 @@ export class MainController {
         this.$scope.ok = this.ok.bind(this);
         this.$scope.ko = this.ko.bind(this);
         this.$scope.hasEnded = this.hasEnded.bind(this);
+        this.$scope.restart = this.restart;
     }
 
     removeLastPerson(ok) {
@@ -88,5 +89,9 @@ export class MainController {
 
     hasEnded() {
         return this.done >= this.$scope.deckSize;
+    }
+
+    restart() {
+        window.location.reload();
     }
 }
