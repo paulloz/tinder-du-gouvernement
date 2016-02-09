@@ -3,7 +3,18 @@
 # Le Tinder du gouvernement
 
 Parce qu'on ne s'entraîne jamais assez à reconnaître les membres de notre très cher gouvernement, [Paulloz](http://paulloz.com) vous propose une appli simple et conviviale. Quinze personnes, deux choix&nbsp;: vers la droite c'est un membre du gouvernement, vers la gauche ce n'est pas le cas.  
-Bonne chance&nbsp;!
+
+Plus jamais vous ne croiserez Emmanuel Macron dans la rue sans le reconnaître&nbsp;!  
+Bonne chance.
+
+## Powered by
+
+* [Angular.js](https://github.com/angular/angular.js)
+* [Babel](https://github.com/babel/babel)
+* [Jade](https://github.com/pugjs/jade)
+* [Less.js](https://github.com/less/less.js)
+* [Gulp](https://github.com/gulpjs/gulp) ([generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular))
+* [Lodash](https://github.com/lodash/lodash)
 
 ## Licence
 
