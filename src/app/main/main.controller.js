@@ -10,7 +10,7 @@ export class MainController {
 
         this.$scope.ending = [];
 
-        $http.get('assets/tsv/gvt.tsv').then(response => {
+        $http.get('assets/tsv/all.tsv').then(response => {
             let gvt = [];
             response.data = d3_dsv.tsvParse(response.data, d => new Object({
                 ID : +d.ID,
