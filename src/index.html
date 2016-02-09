@@ -31,10 +31,23 @@
         <div class="container" ng-controller="MainController as main" ng-class="{'end':hasEnded()}">
             <div class="container" ng-if="!hasEnded()">
                 <p>
-                    Cette personne fait-elle partie du gouvernement&nbsp;?
+                    <span ng-if="hasStarted()">Cette personne fait-elle partie du gouvernement&nbsp;?</span>
+                    <span ng-if="!hasStarted()">&nbsp;</span>
                 </p>
                 <div class="cards" ng-swipe-right="ok(true)" ng-swipe-left="ko(true)">
                     <card ng-repeat="person in persons" person="person"></card>
+                    <div class="card card--intro" ng-if="!hasStarted()">
+                        <img width="100%" src="assets/images/social.jpg">
+                        <p>
+                            Quinze personnes, deux choix&nbsp;: vers la droite c'est un membre du gouvernement, vers la gauche ce n'est pas le cas.
+                            <br>
+                            <br>
+                            Plus jamais vous ne croiserez Emmanuel Macron dans la rue sans le reconnaître&nbsp;!
+                            <br>
+                            <br>
+                            Swipez à droite ou à gauche pour commencer, bonne chance.
+                        </p>
+                    </div>
                 </div>
                 <button class="ok" ng-click="ok(true)"><i class="fa fa-heart"></i></button>
                 <button class="ko" ng-click="ko(true)"><i class="fa fa-times"></i></button>

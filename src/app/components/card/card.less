@@ -1,48 +1,58 @@
-card {
-    .card {
-        display: block;
+.card {
+    display: block;
 
-        position: absolute;
-        top: 0;
-        bottom: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 
+    width: 100%;
+    height: 100%;
+
+    .prefixed(transform, scaleX(.9));
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f1eef7;
+    .prefixed(border-radius, 1%);
+
+    background-color: #ffffff;
+
+    .prefixed(transition, all 500ms ease);
+
+    &__picture {
         width: 100%;
-        height: 100%;
+        height: calc(~"100% - 3.1em");
 
-        .prefixed(transform, scaleX(.9));
-
-        border-width: 2px;
-        border-style: solid;
-        border-color: #f1eef7;
-        .prefixed(border-radius, 1%);
-
-        background-color: #ffffff;
-
-        .prefixed(transition, all 500ms ease);
-
-        &__picture {
-            width: 100%;
-            height: calc(~"100% - 3.1em");
-
-            background-position: center;
-            background-size: cover;
-        }
-
-        &__name {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            left: 0;
-
-            height: 3.1em;
-            padding: 1em;
-
-            .prefixed(box-sizing, border-box);
-
-            background-color: #ffffff;
-        }
+        background-position: center;
+        background-size: cover;
     }
 
+    &__name {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        height: 3.1em;
+        padding: 1em;
+
+        .prefixed(box-sizing, border-box);
+
+        background-color: #ffffff;
+    }
+
+    p {
+        margin: 1em .5em;
+
+        text-align: left;
+    }
+
+    &--intro {
+        .prefixed(transform, translate(0, -4%));
+    }
+}
+
+card {
     &:last-of-type .card {
         .prefixed(transform, translate(0, -4%));
     }

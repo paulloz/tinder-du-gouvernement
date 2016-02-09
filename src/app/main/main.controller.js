@@ -5,7 +5,7 @@ export class MainController {
         this.$timeout = $timeout;
         this.$scope = $scope;
         this.$scope.score = 0;
-        this.done = 0;
+        this.done = -1;
         this.$scope.deckSize = 15;
 
         this.$scope.ending = [];
@@ -27,6 +27,7 @@ export class MainController {
 
         this.$scope.ok = this.ok.bind(this);
         this.$scope.ko = this.ko.bind(this);
+        this.$scope.hasStarted = this.hasStarted.bind(this);
         this.$scope.hasEnded = this.hasEnded.bind(this);
         this.$scope.shareOnTwitter = this.shareOnTwitter.bind(this);
         this.$scope.restart = this.restart;
@@ -45,8 +46,6 @@ export class MainController {
             label : label
         });
 
-        ++this.done;
-
         this.$scope.persons = _.dropRight(this.$scope.persons);
     }
 
@@ -56,14 +55,17 @@ export class MainController {
 
     ok(isTriggeredByClick) {
         const execute = () => {
-            if (this.isLastPartOf()) {
-                ++this.$scope.score;
+            if (this.done >= 0) {
+                if (this.isLastPartOf()) {
+                    ++this.$scope.score;
+                }
+                _.last(this.$scope.persons).ok = this.isLastPartOf();
+                this.removeLastPerson();
             }
-            _.last(this.$scope.persons).ok = this.isLastPartOf();
-            this.removeLastPerson();
+            ++this.done;
         }
 
-        if (isTriggeredByClick) {
+        if (isTriggeredByClick && this.done >= 0) {
             this.$scope.$broadcast('card-ok', _.last(this.$scope.persons).ID);
             this.$timeout(execute.bind(this), 500);
         } else {
@@ -73,19 +75,26 @@ export class MainController {
 
     ko(isTriggeredByClick) {
         const execute = () => {
-            if (!this.isLastPartOf()) {
-                ++this.$scope.score;
+            if (this.done >= 0) {
+                if (!this.isLastPartOf()) {
+                    ++this.$scope.score;
+                }
+                _.last(this.$scope.persons).ok = !this.isLastPartOf();
+                this.removeLastPerson();
             }
-            _.last(this.$scope.persons).ok = !this.isLastPartOf();
-            this.removeLastPerson();
+            ++this.done;
         }
 
-        if (isTriggeredByClick) {
+        if (isTriggeredByClick && this.done >= 0) {
             this.$scope.$broadcast('card-ko', _.last(this.$scope.persons).ID);
             this.$timeout(execute.bind(this), 500);
         } else {
             execute();
         }
+    }
+
+    hasStarted() {
+        return this.done >= 0;
     }
 
     hasEnded() {
