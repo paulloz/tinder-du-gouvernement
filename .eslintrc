@@ -1,0 +1,9 @@
+{
+    "ecmaFeatures": {
+        "modules": true,
+        "classes": true,
+        "blockBindings": true,
+        "arrowFunctions": true,
+        "templateStrings": true
+    }
+}

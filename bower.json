@@ -1,0 +1,14 @@
+{
+  "name": "tinderDuGouvernement",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular-touch": "~1.4.2",
+    "angular-sanitize": "~1.4.2",
+    "angular": "~1.4.2",
+    "lodash": "^4.2.1"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "angular": "~1.4.2"
+  }
+}
