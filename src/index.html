@@ -43,7 +43,7 @@
                     <span ng-if="hasStarted()">Cette personne fait-elle partie du gouvernement&nbsp;?</span>
                     <span ng-if="!hasStarted()">&nbsp;</span>
                 </p>
-                <div class="cards" ng-swipe-right="ok(true)" ng-swipe-left="ko(true)">
+                <div class="cards" ng-swipe-right="ok()" ng-swipe-left="ko()">
                     <card ng-repeat="person in persons" person="person"></card>
                     <div class="card card--intro" ng-if="!hasStarted()">
                         <img width="100%" src="assets/images/social.jpg">
@@ -58,8 +58,8 @@
                         </p>
                     </div>
                 </div>
-                <button class="ok" ng-click="ok(true)"><i class="fa fa-heart"></i></button>
-                <button class="ko" ng-click="ko(true)"><i class="fa fa-times"></i></button>
+                <button class="ok" ng-click="ok()"><i class="fa fa-heart"></i></button>
+                <button class="ko" ng-click="ko()"><i class="fa fa-times"></i></button>
             </div>
             <div ng-if="hasEnded()">
                 <p style="font-size:1.5em;">

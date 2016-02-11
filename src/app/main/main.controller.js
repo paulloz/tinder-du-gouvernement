@@ -76,7 +76,7 @@ export class MainController {
         return _.last(this.$scope.persons).isPartOf;
     }
 
-    ok(isTriggeredByClick) {
+    ok() {
         const execute = () => {
             if (this.done >= 0) {
                 if (this.isLastPartOf()) {
@@ -89,7 +89,7 @@ export class MainController {
             ++this.done;
         }
 
-        if (isTriggeredByClick && this.done >= 0) {
+        if (this.done >= 0) {
             this.$scope.$broadcast('card-ok', _.last(this.$scope.persons).ID);
             this.$timeout(execute.bind(this), 500);
         } else {
@@ -97,7 +97,7 @@ export class MainController {
         }
     }
 
-    ko(isTriggeredByClick) {
+    ko() {
         const execute = () => {
             if (this.done >= 0) {
                 if (!this.isLastPartOf()) {
@@ -109,7 +109,7 @@ export class MainController {
             ++this.done;
         }
 
-        if (isTriggeredByClick && this.done >= 0) {
+        if (this.done >= 0) {
             this.$scope.$broadcast('card-ko', _.last(this.$scope.persons).ID);
             this.$timeout(execute.bind(this), 500);
         } else {
