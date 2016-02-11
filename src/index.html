@@ -75,6 +75,7 @@
                 <hr>
                 <ul>
                     <li ng-repeat="item in ending" ng-class="{ 'ok' : item.ok }">
+                        <img ng-src="{{item.image}}" />
                         {{ item.label }}
                     </li>
                 </ul>

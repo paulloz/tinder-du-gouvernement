@@ -37,11 +37,8 @@ html, body {
             position: relative;
             top: 0;
             left: 0;
-            width: auto;
-            height: auto;
-            padding: .5em;
-
-            font-size: 1.5em;
+            width: 10vw;
+            height: 10vw;
 
             &:first-of-type {
                 color: #298dfd;
@@ -64,7 +61,7 @@ html, body {
     left: 0;
     z-index: 100;
 
-    background: rgba(0, 0, 0, .95);
+    background: rgba(0, 0, 0, .9);
 
     text-align: center;
 
@@ -182,21 +179,62 @@ button {
     }
 }
 
+hr {
+    margin-bottom: 0;
+
+    border-style: solid;
+    border-color: #f1eef7;
+    border-width: 2pt;
+}
+
 ul {
     margin: 0;
-    padding: 1em 2em 2em 2em;
+    padding: 0 0 2em 0;
 
     list-style-type: none;
 
     text-align: left;
 
     li {
-        padding: .5em 0;
+        float: left;
 
-        color: #fe6951;
+        width: 100%;
+        padding: 1em 2em;
+
+        background-color: #fe6951;
+
+        color: #ffffff;
+
+        .prefixed(box-sizing, border-box);
 
         &.ok {
-            color: #64dd9a;
+            background-color: #64dd9a;
+        }
+
+        span {
+            float: left;
+        }
+
+        img {
+            width: 7vw;
+
+            border-radius: 100%;
+        }
+
+        &:nth-of-type(odd) img {
+            float: left;
+
+            margin-right: .5em;
+        }
+
+        &:nth-of-type(even) img {
+            float: right;
+
+            margin-left: .5em;
+        }
+
+        &:last-of-type {
+            margin-bottom: 1em;
         }
     }
 }
