@@ -30,9 +30,12 @@
     <body>
         <div class="container" ng-controller="MainController as main" ng-class="{'end':hasEnded()}">
             <div class="match-overlay" ng-class="{'match-overlay--show':isItAMatch()}">
-                <!-- <p class="match-overlay__itsamatch">It's a Match!</p> -->
-                <img src="assets/images/itsamatch.png">
-                <img width="100" ng-src="{{getMatchImageSrc()}}">
+                <p style="text-align:center;">
+                    <img src="assets/images/itsamatch.png">
+                    <br>
+                    <img width="33%" ng-src="{{getImageSrc(itsamatch)}}">
+                    <br>
+                </p>
                 <p>
                     {{itsamatch.surname}} {{itsamatch.name}} est bien {{itsamatch.title}}.
                 </p>

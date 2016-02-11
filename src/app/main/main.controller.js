@@ -29,7 +29,7 @@ export class MainController {
 
         this.$scope.isItAMatch = this.isItAMatch.bind(this);
         this.$scope.continue = this.continue.bind(this);
-        this.$scope.getMatchImageSrc = this.getMatchImageSrc.bind(this);
+        this.$scope.getImageSrc = this.getImageSrc.bind(this);
         this.$scope.ok = this.ok.bind(this);
         this.$scope.ko = this.ko.bind(this);
         this.$scope.hasStarted = this.hasStarted.bind(this);
@@ -50,10 +50,10 @@ export class MainController {
         this.$scope.itsamatch = null;
     }
 
-    getMatchImageSrc() {
-        return this.$scope.itsamatch == null
+    getImageSrc(person) {
+        return person == null
             ? ''
-            : `assets/images/${this.$scope.itsamatch.name.toLowerCase().replace(/ /g, '-')}.jpg`;
+            : `assets/images/${person.name.toLowerCase().replace(/ /g, '-')}.jpg`;
     }
 
     removeLastPerson(ok) {
@@ -66,7 +66,8 @@ export class MainController {
         }
         this.$scope.ending.push({
             ok : last.ok,
-            label : label
+            label : label,
+            image : this.getImageSrc(last)
         });
 
         this.$scope.persons = _.dropRight(this.$scope.persons);

@@ -21,16 +21,18 @@ class CardController {
 
         this.move = 0;
 
-        $scope.label = `${this.person.surname} ${this.person.name}`;
+        this.$scope = $scope;
 
-        $scope.getTransform = this.getTransform.bind(this);
-        $scope.getPicture = this.getPicture.bind(this);
+        this.$scope.label = `${this.person.surname} ${this.person.name}`;
 
-        $scope.$on('card-ok', (ev, id) => {
+        this.$scope.getTransform = this.getTransform.bind(this);
+        this.$scope.getPicture = this.getPicture.bind(this);
+
+        this.$scope.$on('card-ok', (ev, id) => {
             if (this.person.ID === id) { this.move = 1; }
         });
 
-        $scope.$on('card-ko', (ev, id) => {
+        this.$scope.$on('card-ko', (ev, id) => {
             if (this.person.ID === id) { this.move = -1; }
         });
     }
@@ -43,10 +45,8 @@ class CardController {
     }
 
     getPicture() {
-        const slug = this.person.name.toLowerCase().replace(/ /g, '-');
-
         return {
-            'background-image': `url(assets/images/${slug}.jpg)`
+            'background-image': `url(${this.$scope.$parent.getImageSrc(this.person)})`
         };
     }
 }
