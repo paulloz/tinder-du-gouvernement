@@ -4,6 +4,7 @@
 @text-color: #888888;
 @ok-color: #64dd9a;
 @ko-color: #fe6951;
+@border-color: #f1eef7;
 
 .prefixed(@property, @value) {
     -webkit-@{property}: @value;
@@ -37,8 +38,6 @@ html, body {
             position: relative;
             top: 0;
             left: 0;
-            width: 10vw;
-            height: 10vw;
 
             &:first-of-type {
                 color: #298dfd;
@@ -142,7 +141,7 @@ button {
 
     border-style: solid;
     border-width: 7pt;
-    border-color: #f1eef7;
+    border-color: @border-color;
     border-radius: 200%;
 
     background-color: #ffffff;
@@ -183,7 +182,7 @@ hr {
     margin-bottom: 0;
 
     border-style: solid;
-    border-color: #f1eef7;
+    border-color: @border-color;
     border-width: 2pt;
 }
 
@@ -216,7 +215,7 @@ ul {
         }
 
         img {
-            width: 7vw;
+            width: 20vw;
 
             border-radius: 100%;
         }
@@ -235,6 +234,10 @@ ul {
 
         &:last-of-type {
             margin-bottom: 1em;
+
+            border-style: solid;
+            border-color: @border-color;
+            border-width: 0 0 2pt 0;
         }
     }
 }
