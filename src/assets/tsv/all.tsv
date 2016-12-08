@@ -1,12 +1,12 @@
 ID	Nom	Prénom	H/F	Gouvernement	Poste
-1	Valls	Manuel	H	1	Premier Ministre
-2	Le Guen	Jean-Marie	H	1	Secrétaire d'État auprès du Premier ministre, chargé des Relations avec le Parlement
+1	Cazeneuve	Bernard	H	1	Premier Ministre
+2	Vallini	André	H	1	Secrétaire d'État auprès du Premier ministre, chargé des Relations avec le Parlement
 3	Placé	Jean-Vincent	H	1	Secrétaire d’État auprès du Premier ministre, chargé de la réforme de l’État et de la simplification
 4	Méadel	Juliette	F	1	Secrétaire d’État auprès du Premier ministre, chargée de l’aide aux victimes
 5	Ayrault	Jean-Marc	H	1	Ministre des Affaires étrangères et du Développement international
 6	Désir	Harlem	H	1	Secrétaire d’État auprès du ministre des Affaires étrangères et du Développement international, chargé des Affaires européennes
 7	Fekl	Matthias	H	1	Secrétaire d'État auprès du ministre des Affaires étrangères et du Développement international, chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger
-8	Vallini	André	H	1	Secrétaire d’Etat auprès du ministre des Affaires étrangères et du Développement international, chargé du Développement et de la Francophonie
+8	Le Guen	Jean-Marie	H	1	Secrétaire d’État auprès du ministre des Affaires étrangères et du Développement international, chargé du Développement et de la Francophonie
 9	Royal	Ségolène	F	1	Ministre de l’Environnement, de l’Énergie et de la Mer, chargée des Relations internationales sur le climat
 10	Vidalies	Alain	H	1	Secrétaire d’État auprès de la ministre de l’Environnement, de l’Énergie et de la Mer, chargée des Relations internationales sur le climat, chargé des Transports, de la Mer et de la Pêche
 11	Pompili	Barbara	F	1	Secrétaire d’État auprès de la ministre de l’Environnement, de l’Énergie et de la Mer, chargée des relations internationales sur le climat, chargée de la biodiversité
@@ -27,7 +27,7 @@ ID	Nom	Prénom	H/F	Gouvernement	Poste
 26	Valter	Clotilde	F	1	Secrétaire d’État auprès de la ministre du Travail, de l’Emploi, de la Formation professionnelle et du Dialogue social, chargée de la Formation professionnelle et de l’Apprentissage
 27	Baylet	Jean-Michel	H	1	Ministre de l’Aménagement du territoire, de la Ruralité et des Collectivités territoriales
 28	Grelier	Estelle	F	1	Secrétaire d’État auprès du ministre de l’aménagement du territoire, de la ruralité et des collectivités territoriales, chargée des collectivités territoriales
-29	Cazeneuve	Bernard	H	1	Ministre de l'Intérieur
+29	Leroux	Bruno	H	1	Ministre de l'Intérieur
 30	Le Foll	Stéphane	H	1	Ministre de l’Agriculture, de l’Agroalimentaire et de la Forêt, Porte-parole du Gouvernement
 31	Cosse	Emmanuelle	F	1	Ministre du Logement et de l’Habitat durable
 32	Azoulay	Audrey	F	1	Ministre de la Culture et de la Communication
@@ -37,25 +37,25 @@ ID	Nom	Prénom	H/F	Gouvernement	Poste
 36	Geoffroy	Hélène	F	1	Secrétaire d’État auprès du ministre de la Ville, de la Jeunesse et des Sports, chargée de la Ville
 37	Braillard	Thierry	H	1	Secrétaire d'État auprès du ministre de la Ville, de la Jeunesse et des Sports, chargé des Sports
 38	Bareigts	Ericka	F	1	Ministre des Outre-Mer
-39	Macron	Emmanuel	H	0	.
-40	Pau-Langevin	George	F	0	.
-41	Fabius	Laurent	H	0	.
-42	Pinel	Sylvia	F	0	.
-43	Lebranchu	Marylise	F	0	.
-44	Pellerin	Fleur	F	0	.
-45	Hollande	François	H	0	.
-46	Lefebvre	Frédéric	H	0	.
-47	Coronado	Sergio	H	0	.
-48	Aubry	Martine	F	0	.
-49	Attard	Isabelle	F	0	.
-50	Castaner	Christophe	H	0	.
-51	Rebsamen	François	H	0	.
-52	Bertrand	Xavier	H	0	.
-53	Bartolone	Claude	H	0	.
-54	Dufay	Marie-Guite	F	0	.
-55	Taubira	Christiane	F	0	.
-56	Duflot	Cécile	F	0	.
-57	Leroux	Bruno	H	0	.
+39	Valls	Manuel	H	0	.
+40	Macron	Emmanuel	H	0	.
+41	Pau-Langevin	George	F	0	.
+42	Fabius	Laurent	H	0	.
+43	Pinel	Sylvia	F	0	.
+44	Lebranchu	Marylise	F	0	.
+45	Pellerin	Fleur	F	0	.
+46	Hollande	François	H	0	.
+47	Lefebvre	Frédéric	H	0	.
+48	Coronado	Sergio	H	0	.
+49	Aubry	Martine	F	0	.
+50	Attard	Isabelle	F	0	.
+51	Castaner	Christophe	H	0	.
+52	Rebsamen	François	H	0	.
+53	Bertrand	Xavier	H	0	.
+54	Bartolone	Claude	H	0	.
+55	Dufay	Marie-Guite	F	0	.
+56	Taubira	Christiane	F	0	.
+57	Duflot	Cécile	F	0	.
 58	Juppé	Alain	H	0	.
 59	Cambadelis	Jean-Christophe	H	0	.
 60	Lignières-Cassou	Martine	F	0	.
