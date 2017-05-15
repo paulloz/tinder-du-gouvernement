@@ -48,6 +48,7 @@ export class MainController {
         this.$scope.continue = this.continue.bind(this);
         this.$scope.getImageSrc = this.getImageSrc.bind(this);
         this.$scope.getCongratulation = this.getCongratulation.bind(this);
+        this.$scope.formatParty = this.formatParty;
         this.$scope.ok = this.ok.bind(this);
         this.$scope.ko = this.ko.bind(this);
         this.$scope.hasStarted = this.hasStarted.bind(this);
@@ -84,6 +85,27 @@ export class MainController {
 
     getCongratulation() {
         return _.sample(this.congratulations);
+    }
+
+    formatParty(party) {
+        switch (party) {
+            case 'LR':
+                return 'à Les Républicains';
+            case 'PS':
+                return 'au Parti socialiste';
+            case 'UDE':
+                return 'à l\'Union des démocrates et des écologistes';
+            case 'REM':
+                return 'à La République en marche';
+            case 'PRG':
+                return 'au Parti radical de gauche';
+            case 'UDI':
+                return 'à l\'Union des démocrates et indépendants';
+            case 'EELV':
+                return 'à Europe Écologie Les Verts';
+            default:
+                return `au ${party}`;
+        }
     }
 
     removeLastPerson(ok) {

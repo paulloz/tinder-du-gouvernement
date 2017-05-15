@@ -40,12 +40,11 @@
                 <p ng-if="isItAOKMatch()">
                     {{itsamatch.surname}} {{itsamatch.name}} est bien {{itsamatch.title}}.
                 </p>
+                <p  ng-if="isItAOKMatch() && itsamatch.party">
+                    {{itsamatch.isAWoman ? 'Elle' : 'Il'}} est adhérent{{itsamatch.isAWoman ? 'e' : ''}} {{formatParty(itsamatch.party)}}.
+                </p>
                 <p ng-if="isItAKOMatch()">
                     {{itsamatch.surname}} {{itsamatch.name}} ne fait pas partie du gouvernement.
-                </p>
-                <p ng-if="itsamatch.party">
-                    <span>{{itsamatch.isAWoman ? 'Elle' : 'Il'}} est adhérent{{itsamatch.isAWoman ? 'e' : ''}} au {{itsamatch.party}}.</span>
-                    <br>
                 </p>
                 <p>
                     <span class="fa-stack">
