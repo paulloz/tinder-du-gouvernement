@@ -32,6 +32,7 @@ export class MainController {
         this.$scope.isItAKOMatch = this.isItAKOMatch.bind(this);
         this.$scope.continue = this.continue.bind(this);
         this.$scope.getImageSrc = this.getImageSrc.bind(this);
+        this.$scope.getCongratulation = this.getCongratulation.bind(this);
         this.$scope.ok = this.ok.bind(this);
         this.$scope.ko = this.ko.bind(this);
         this.$scope.hasStarted = this.hasStarted.bind(this);
@@ -42,6 +43,13 @@ export class MainController {
 
     isItAMatch() {
         return this.$scope.itsamatch != null;
+    }
+
+    isItAOKMatch() {
+    }
+
+    isItAKOMatch() {
+        return this.isItAMatch() && !this.isItAOKMatch();
     }
 
     match(match) {
@@ -56,6 +64,10 @@ export class MainController {
         return person == null
             ? ''
             : `assets/images/${person.name.toLowerCase().replace(/ /g, '-')}.jpg`;
+    }
+
+    getCongratulation() {
+        return _.sample(['Bravo !', 'Bien joué !', 'En effet !', 'Bien vu !', 'T\'es un-e as !']);
     }
 
     removeLastPerson(ok) {
