@@ -27,7 +27,7 @@
         <!-- endbuild -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
-    <body>
+    <body ng-cloak>
         <div class="container" ng-controller="MainController as main" ng-class="{'end':hasEnded()}">
             <div class="match-overlay" ng-class="{'match-overlay--show':isItAMatch()}">
                 <p style="text-align:center;">
@@ -50,15 +50,18 @@
                     <card ng-repeat="person in persons" person="person"></card>
                     <div class="card card--intro" ng-if="!hasStarted()">
                         <img width="100%" src="assets/images/social.jpg">
-                        <p class="version">Maintenant<br>en version Valls 3&nbsp;!</p>
+                        <p class="version">Maintenant<br>en version Édouard Philippe&nbsp;!</p>
                         <p>
                             Quinze personnes, deux choix&nbsp;: vers la droite c'est un membre du gouvernement, vers la gauche ce n'est pas le cas.
                             <br>
                             <br>
-                            Plus jamais vous ne croiserez Emmanuel Macron dans la rue sans le reconnaître&nbsp;!
+                            Plus jamais tu ne croisera un de tes responsables politique dans la rue sans le reconnaître&nbsp;! Pratique en cas de révolution&nbsp;!
                             <br>
                             <br>
-                            Swipez pour commencer, bonne chance.
+                            Swipe (à gauche ou à droite) pour commencer.
+                            <br>
+                            <br>
+                            Bon courage&nbsp;!
                         </p>
                     </div>
                 </div>
