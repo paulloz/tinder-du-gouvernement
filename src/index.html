@@ -36,8 +36,11 @@
                     <img width="33%" ng-src="{{getImageSrc(itsamatch)}}">
                     <br>
                 </p>
-                <p>
+                <p ng-if="isItAOKMatch()">
                     {{itsamatch.surname}} {{itsamatch.name}} est bien {{itsamatch.title}}.
+                </p>
+                <p ng-if="isItAKOMatch()">
+                    {{itsamatch.surname}} {{itsamatch.name}} ne fait pas partie du gouvernement.
                 </p>
                 <a class="match-overlay__continue" ng-click="continue()">Continuer</a>
             </div>

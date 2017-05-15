@@ -28,6 +28,8 @@ export class MainController {
         });
 
         this.$scope.isItAMatch = this.isItAMatch.bind(this);
+        this.$scope.isItAOKMatch = this.isItAOKMatch.bind(this);
+        this.$scope.isItAKOMatch = this.isItAKOMatch.bind(this);
         this.$scope.continue = this.continue.bind(this);
         this.$scope.getImageSrc = this.getImageSrc.bind(this);
         this.$scope.ok = this.ok.bind(this);
@@ -102,6 +104,7 @@ export class MainController {
         const execute = () => {
             if (this.done >= 0) {
                 if (!this.isLastPartOf()) {
+                    this.match(_.last(this.$scope.persons));
                     ++this.$scope.score;
                 }
                 _.last(this.$scope.persons).ok = !this.isLastPartOf();
