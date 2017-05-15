@@ -4,7 +4,7 @@
 
 Parce qu'on ne s'entraîne jamais assez à reconnaître les membres de notre très cher gouvernement, [Paulloz](http://paulloz.com) vous propose une appli simple et conviviale. Quinze personnes, deux choix&nbsp;: vers la droite c'est un membre du gouvernement, vers la gauche ce n'est pas le cas.  
 
-Plus jamais tu ne croisera un de tes responsables politique dans la rue sans le reconnaître&nbsp;! Pratique en cas de révolution&nbsp;!
+Plus jamais tu ne croiseras un de tes responsables politique dans la rue sans le reconnaître&nbsp;! Pratique en cas de révolution&nbsp;!
 
 ## Powered by
 
