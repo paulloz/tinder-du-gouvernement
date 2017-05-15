@@ -43,6 +43,17 @@
                 <p ng-if="isItAKOMatch()">
                     {{itsamatch.surname}} {{itsamatch.name}} ne fait pas partie du gouvernement.
                 </p>
+                <p ng-if="itsamatch.party">
+                    <span>{{itsamatch.isAWoman ? 'Elle' : 'Il'}} est adhérent{{itsamatch.isAWoman ? 'e' : ''}} au {{itsamatch.party}}.</span>
+                    <br>
+                </p>
+                <p>
+                    <span class="fa-stack">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-wikipedia-w fa-stack-1x fa-inverse"></i>
+                    </span>
+                    Plus d'informations sur <a ng-href="{{itsamatch.wikipedia}}" target="_blank">Wikipedia</a>.
+                </p>
                 <a class="match-overlay__continue" ng-click="continue()">Continuer</a>
             </div>
             <div class="container" ng-if="!hasEnded()">
@@ -80,7 +91,17 @@
                 <ul>
                     <li ng-repeat="item in ending" ng-class="{ 'ok' : item.ok }">
                         <img ng-src="{{item.image}}" />
-                        {{ item.label }}
+                        <div>
+                            {{ item.label }}
+                            <br><br>
+                            <small>
+                                <span class="fa-stack">
+                                    <i class="fa fa-square fa-stack-2x"></i>
+                                    <i class="fa fa-wikipedia-w fa-stack-1x fa-inverse"></i>
+                                </span>
+                                Plus d'informations sur <a ng-href="{{item.wikipedia}}" target="_blank">Wikipedia</a>.
+                            </small>
+                        </div>
                     </li>
                 </ul>
             </div>

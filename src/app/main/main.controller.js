@@ -20,6 +20,9 @@ export class MainController {
                 ID : +d.ID,
                 surname : d['Prénom'],
                 name : d.Nom,
+                isAWoman : d['H/F'] === 'F',
+                party : d.Parti.length > 0 ? d.Parti : undefined,
+                wikipedia : d.Wikipedia,
                 isPartOf : +d.Gouvernement === 1,
                 title : d.Poste
             }));
@@ -84,6 +87,7 @@ export class MainController {
         this.$scope.ending.push({
             ok : last.ok,
             label : label,
+            wikipedia : last.wikipedia,
             image : this.getImageSrc(last)
         });
 

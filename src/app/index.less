@@ -96,10 +96,22 @@ body {
     }
 
     p {
+        @matchtext-color: #ffffff;
+
         margin: 1em 2em;
 
         text-align: left;
-        color: #ffffff;
+        color: @matchtext-color;
+
+        .fa-inverse {
+            color: #fff - @matchtext-color;
+        }
+
+        a {
+            color: @matchtext-color;
+            text-decoration: none;
+            font-weight: bold;
+        }
     }
 
     &__itsamatch {
@@ -204,14 +216,42 @@ ul {
     text-align: left;
 
     li {
-        float: left;
+        @litext-color: #ffffff;
+
+        display: flex;
+        flex: none;
 
         width: 100%;
         padding: 1em 2em;
 
         background-color: #fe6951;
 
-        color: #ffffff;
+        color: @litext-color;
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 80%;
+
+            text-align: left;
+
+            small {
+                margin-top: .5em;
+
+                font-size: .7em;
+                line-height: 2em;
+            }
+        }
+
+        .fa-inverse {
+            color: #ffffff - @litext-color;
+        }
+
+        a {
+            color: @litext-color;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
         .prefixed(box-sizing, border-box);
 
@@ -224,21 +264,27 @@ ul {
         }
 
         img {
-            width: 20vw;
+            flex-basis: 30%;
 
             border-radius: 100%;
         }
 
-        &:nth-of-type(odd) img {
-            float: left;
+        &:nth-of-type(odd) {
+            flex-direction: row;
+            justify-content: flex-start;
 
-            margin-right: .5em;
+            img {
+                margin-right: .5em;
+            }
         }
 
-        &:nth-of-type(even) img {
-            float: right;
+        &:nth-of-type(even) {
+            flex-direction: row-reverse;
+            justify-content: flex-end;
 
-            margin-left: .5em;
+            img {
+                margin-left: .5em;
+            }
         }
 
         &:last-of-type {
