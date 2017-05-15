@@ -23,6 +23,15 @@ html, body {
     font-family: sans-serif;
 }
 
+body {
+    max-width: 1200px;
+
+    position: relative;
+    left: 50%;
+
+    .prefixed(transform, translateX(-50%));
+}
+
 .container {
     height: 100%;
 
