@@ -1,78 +1,79 @@
 ID	Nom	Prénom	H/F	Gouvernement	Poste
-1	Cazeneuve	Bernard	H	1	Premier Ministre
-2	Vallini	André	H	1	Secrétaire d'État auprès du Premier ministre, chargé des Relations avec le Parlement
-3	Placé	Jean-Vincent	H	1	Secrétaire d’État auprès du Premier ministre, chargé de la réforme de l’État et de la simplification
-4	Méadel	Juliette	F	1	Secrétaire d’État auprès du Premier ministre, chargée de l’aide aux victimes
-5	Ayrault	Jean-Marc	H	1	Ministre des Affaires étrangères et du Développement international
-6	Désir	Harlem	H	1	Secrétaire d’État auprès du ministre des Affaires étrangères et du Développement international, chargé des Affaires européennes
-7	Fekl	Matthias	H	1	Secrétaire d'État auprès du ministre des Affaires étrangères et du Développement international, chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger
-8	Le Guen	Jean-Marie	H	1	Secrétaire d’État auprès du ministre des Affaires étrangères et du Développement international, chargé du Développement et de la Francophonie
-9	Royal	Ségolène	F	1	Ministre de l’Environnement, de l’Énergie et de la Mer, chargée des Relations internationales sur le climat
-10	Vidalies	Alain	H	1	Secrétaire d’État auprès de la ministre de l’Environnement, de l’Énergie et de la Mer, chargée des Relations internationales sur le climat, chargé des Transports, de la Mer et de la Pêche
-11	Pompili	Barbara	F	1	Secrétaire d’État auprès de la ministre de l’Environnement, de l’Énergie et de la Mer, chargée des relations internationales sur le climat, chargée de la biodiversité
-12	Vallaud-Belkacem	Najat	F	1	Ministre de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche
-13	Mandon	Thierry	H	1	Secrétaire d’État auprès de la ministre de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche, chargé de l'Enseignement supérieur et de la Recherche
-14	Sapin	Michel	H	1	Ministre des Finances et des Comptes publics
-15	Eckert	Christian	H	1	Secrétaire d’État auprès du ministre des Finances et des Comptes publics, chargé du Budget
-16	Lemaire	Axelle	F	1	Secrétaire d'État auprès du ministre de l'Économie et des Finances, chargée du Numérique et de l’Innovation
-17	Pinville	Martine	F	1	Secrétaire d’État auprès du ministre de l'Économie et des Finances, chargée du Commerce, de l'Artisanat, de la Consommation et de l'Économie sociale et solidaire
-18	Christophe	Sirugue	H	1	Secrétaire d’État chargé de l’Industrie auprès du ministre de l’Économie et des Finances
-19	Touraine	Marisol	F	1	Ministre des Affaires sociales et de la Santé
-20	Neuville	Ségolène	F	1	Secrétaire d'État auprès de la ministre des Affaires sociales et de la Santé, chargée des Personnes handicapées et de la Lutte contre l'exclusion
-21	Boistard	Pascale	F	1	Secrétaire d'État auprès de la ministre des Affaires sociales et de la Santé, chargée des Personnes âgées et de l’Autonomie
-22	Le Drian	Jean-Yves	H	1	Ministre de la Défense
-23	Todeschini	Jean-Marc	H	1	Secrétaire d’État auprès du ministre de la Défense, chargé des Anciens Combattants et de la Mémoire
-24	Urvoas	Jean-Jacques	H	1	Garde des Sceaux, ministre de la Justice
-25	El Khomri	Myriam	F	1	Ministre du Travail, de l’Emploi, de la Formation professionnelle et du Dialogue social
-26	Valter	Clotilde	F	1	Secrétaire d’État auprès de la ministre du Travail, de l’Emploi, de la Formation professionnelle et du Dialogue social, chargée de la Formation professionnelle et de l’Apprentissage
-27	Baylet	Jean-Michel	H	1	Ministre de l’Aménagement du territoire, de la Ruralité et des Collectivités territoriales
-28	Grelier	Estelle	F	1	Secrétaire d’État auprès du ministre de l’aménagement du territoire, de la ruralité et des collectivités territoriales, chargée des collectivités territoriales
-29	Leroux	Bruno	H	1	Ministre de l'Intérieur
-30	Le Foll	Stéphane	H	1	Ministre de l’Agriculture, de l’Agroalimentaire et de la Forêt, Porte-parole du Gouvernement
-31	Cosse	Emmanuelle	F	1	Ministre du Logement et de l’Habitat durable
-32	Azoulay	Audrey	F	1	Ministre de la Culture et de la Communication
-33	Rossignol	Laurence	F	1	Ministre de la Famille, de l’Enfance et des Droits des femmes
-34	Girardin	Annick	F	1	Ministre de la Fonction publique
-35	Kanner	Patrick	H	1	Ministre de la Ville, de la Jeunesse et des Sports
-36	Geoffroy	Hélène	F	1	Secrétaire d’État auprès du ministre de la Ville, de la Jeunesse et des Sports, chargée de la Ville
-37	Braillard	Thierry	H	1	Secrétaire d'État auprès du ministre de la Ville, de la Jeunesse et des Sports, chargé des Sports
-38	Bareigts	Ericka	F	1	Ministre des Outre-Mer
-39	Valls	Manuel	H	0	.
-40	Macron	Emmanuel	H	0	.
-41	Pau-Langevin	George	F	0	.
-42	Fabius	Laurent	H	0	.
-43	Pinel	Sylvia	F	0	.
-44	Lebranchu	Marylise	F	0	.
-45	Pellerin	Fleur	F	0	.
-46	Hollande	François	H	0	.
-47	Lefebvre	Frédéric	H	0	.
-48	Coronado	Sergio	H	0	.
-49	Aubry	Martine	F	0	.
-50	Attard	Isabelle	F	0	.
-51	Castaner	Christophe	H	0	.
-52	Rebsamen	François	H	0	.
-53	Bertrand	Xavier	H	0	.
-54	Bartolone	Claude	H	0	.
-55	Dufay	Marie-Guite	F	0	.
-56	Taubira	Christiane	F	0	.
-57	Duflot	Cécile	F	0	.
-58	Juppé	Alain	H	0	.
-59	Cambadelis	Jean-Christophe	H	0	.
-60	Lignières-Cassou	Martine	F	0	.
-61	Bachelot	Roselyne	F	0	.
-62	Pécresse	Valérie	F	0	.
-63	Boutin	Christine	F	0	.
-64	Hulot	Nicolas	H	0	.
-65	Filippetti	Aurélie	F	0	.
-66	Borloo	Jean-Louis	H	0	.
-67	Bricq	Nicole	F	0	.
-68	Fourneyron	Valérie	F	0	.
-69	Montebourg	Arnaud	H	0	.
-70	Hamon	Benoît	H	0	.
-71	Moscovici	Pierre	H	0	.
-72	Batho	Delphine	F	0	.
-73	Peillon	Vincent	H	0	.
-74	Fioraso	Geneviève	F	0	.
-75	Delaunay	Michèle	F	0	.
-76	Cahuzac	Jérôme	H	0	.
-77	Voynet	Dominique	F	0	.
+1	Philippe	Édouard	H	1	Premier Ministre
+2	Cazeneuve	Bernard	H	0	.
+3	Vallini	André	H	0	.
+4	Placé	Jean-Vincent	H	0	.
+5	Méadel	Juliette	F	0	.
+6	Ayrault	Jean-Marc	H	0	.
+7	Désir	Harlem	H	0	.
+8	Fekl	Matthias	H	0	.
+9	Le Guen	Jean-Marie	H	0	.
+10	Royal	Ségolène	F	0	.
+11	Vidalies	Alain	H	0	.
+12	Pompili	Barbara	F	0	.
+13	Vallaud-Belkacem	Najat	F	0	.
+14	Mandon	Thierry	H	0	.
+15	Sapin	Michel	H	0	.
+16	Eckert	Christian	H	0	.
+17	Lemaire	Axelle	F	0	.
+18	Pinville	Martine	F	0	.
+19	Christophe	Sirugue	H	0	.
+20	Touraine	Marisol	F	0	.
+21	Neuville	Ségolène	F	0	.
+22	Boistard	Pascale	F	0	.
+23	Le Drian	Jean-Yves	H	0	.
+24	Todeschini	Jean-Marc	H	0	.
+25	Urvoas	Jean-Jacques	H	0	.
+26	El Khomri	Myriam	F	0	.
+27	Valter	Clotilde	F	0	.
+28	Baylet	Jean-Michel	H	0	.
+29	Grelier	Estelle	F	0	.
+30	Leroux	Bruno	H	0	.
+31	Le Foll	Stéphane	H	0	.
+32	Cosse	Emmanuelle	F	0	.
+33	Azoulay	Audrey	F	0	.
+34	Rossignol	Laurence	F	0	.
+35	Girardin	Annick	F	0	.
+36	Kanner	Patrick	H	0	.
+37	Geoffroy	Hélène	F	0	.
+38	Braillard	Thierry	H	0	.
+39	Bareigts	Ericka	F	0	.
+40	Valls	Manuel	H	0	.
+41	Macron	Emmanuel	H	0	.
+42	Pau-Langevin	George	F	0	.
+43	Fabius	Laurent	H	0	.
+44	Pinel	Sylvia	F	0	.
+45	Lebranchu	Marylise	F	0	.
+46	Pellerin	Fleur	F	0	.
+47	Hollande	François	H	0	.
+48	Lefebvre	Frédéric	H	0	.
+49	Coronado	Sergio	H	0	.
+50	Aubry	Martine	F	0	.
+51	Attard	Isabelle	F	0	.
+52	Castaner	Christophe	H	0	.
+53	Rebsamen	François	H	0	.
+54	Bertrand	Xavier	H	0	.
+55	Bartolone	Claude	H	0	.
+56	Dufay	Marie-Guite	F	0	.
+57	Taubira	Christiane	F	0	.
+58	Duflot	Cécile	F	0	.
+59	Juppé	Alain	H	0	.
+60	Cambadelis	Jean-Christophe	H	0	.
+61	Lignières-Cassou	Martine	F	0	.
+62	Bachelot	Roselyne	F	0	.
+63	Pécresse	Valérie	F	0	.
+64	Boutin	Christine	F	0	.
+65	Hulot	Nicolas	H	0	.
+66	Filippetti	Aurélie	F	0	.
+67	Borloo	Jean-Louis	H	0	.
+68	Bricq	Nicole	F	0	.
+69	Fourneyron	Valérie	F	0	.
+70	Montebourg	Arnaud	H	0	.
+71	Hamon	Benoît	H	0	.
+72	Moscovici	Pierre	H	0	.
+73	Batho	Delphine	F	0	.
+74	Peillon	Vincent	H	0	.
+75	Fioraso	Geneviève	F	0	.
+76	Delaunay	Michèle	F	0	.
+77	Cahuzac	Jérôme	H	0	.
+78	Voynet	Dominique	F	0	.
