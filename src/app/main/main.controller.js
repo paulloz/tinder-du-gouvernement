@@ -12,6 +12,8 @@ export class MainController {
 
         this.$scope.ending = [];
 
+        this.congratulations = ['Bravo !', 'Bien joué !', 'En effet !', 'Bien vu !', 'T\'es un-e as !'];
+
         $http.get('assets/tsv/all.tsv').then(response => {
             let gvt = [];
             response.data = d3_dsv.tsvParse(response.data, d => new Object({
@@ -68,7 +70,7 @@ export class MainController {
     }
 
     getCongratulation() {
-        return _.sample(['Bravo !', 'Bien joué !', 'En effet !', 'Bien vu !', 'T\'es un-e as !']);
+        return _.sample(this.congratulations);
     }
 
     removeLastPerson(ok) {
