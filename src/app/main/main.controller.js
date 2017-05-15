@@ -15,7 +15,6 @@ export class MainController {
         this.congratulations = ['Bravo !', 'Bien joué !', 'En effet !', 'Bien vu !', 'T\'es un-e as !'];
 
         $http.get('assets/tsv/all.tsv').then(response => {
-            let gvt = [];
             response.data = d3_dsv.tsvParse(response.data, d => new Object({
                 ID : +d.ID,
                 surname : d['Prénom'],
@@ -28,7 +27,18 @@ export class MainController {
             }));
 
             this.gvt = response.data;
-            this.deck = _.shuffle(_.sampleSize(response.data, this.$scope.deckSize));
+            this.deck = [];
+            while (this.deck.length < this.$scope.deckSize)
+            {
+                let picked = _.sample(this.gvt);
+                if (picked.isPartOf || this.deck.length >= this.$scope.deckSize / 3)
+                {
+                    this.deck.push(picked);
+                    _.remove(this.gvt, picked);
+                }
+            }
+
+            this.gvt = response.data;
             this.$scope.persons = this.deck;
         });
 
