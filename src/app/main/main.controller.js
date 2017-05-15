@@ -46,6 +46,7 @@ export class MainController {
     }
 
     isItAOKMatch() {
+        return this.isItAMatch() && this.$scope.itsamatch.title !== '.';
     }
 
     isItAKOMatch() {
