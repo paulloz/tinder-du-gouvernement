@@ -1,79 +1,84 @@
-ID	Nom	Prénom	H/F	Gouvernement	Poste
-1	Philippe	Édouard	H	1	Premier Ministre
-2	Cazeneuve	Bernard	H	0	.
-3	Vallini	André	H	0	.
-4	Placé	Jean-Vincent	H	0	.
-5	Méadel	Juliette	F	0	.
-6	Ayrault	Jean-Marc	H	0	.
-7	Désir	Harlem	H	0	.
-8	Fekl	Matthias	H	0	.
-9	Le Guen	Jean-Marie	H	0	.
-10	Royal	Ségolène	F	0	.
-11	Vidalies	Alain	H	0	.
-12	Pompili	Barbara	F	0	.
-13	Vallaud-Belkacem	Najat	F	0	.
-14	Mandon	Thierry	H	0	.
-15	Sapin	Michel	H	0	.
-16	Eckert	Christian	H	0	.
-17	Lemaire	Axelle	F	0	.
-18	Pinville	Martine	F	0	.
-19	Christophe	Sirugue	H	0	.
-20	Touraine	Marisol	F	0	.
-21	Neuville	Ségolène	F	0	.
-22	Boistard	Pascale	F	0	.
-23	Le Drian	Jean-Yves	H	0	.
-24	Todeschini	Jean-Marc	H	0	.
-25	Urvoas	Jean-Jacques	H	0	.
-26	El Khomri	Myriam	F	0	.
-27	Valter	Clotilde	F	0	.
-28	Baylet	Jean-Michel	H	0	.
-29	Grelier	Estelle	F	0	.
-30	Leroux	Bruno	H	0	.
-31	Le Foll	Stéphane	H	0	.
-32	Cosse	Emmanuelle	F	0	.
-33	Azoulay	Audrey	F	0	.
-34	Rossignol	Laurence	F	0	.
-35	Girardin	Annick	F	0	.
-36	Kanner	Patrick	H	0	.
-37	Geoffroy	Hélène	F	0	.
-38	Braillard	Thierry	H	0	.
-39	Bareigts	Ericka	F	0	.
-40	Valls	Manuel	H	0	.
-41	Macron	Emmanuel	H	0	.
-42	Pau-Langevin	George	F	0	.
-43	Fabius	Laurent	H	0	.
-44	Pinel	Sylvia	F	0	.
-45	Lebranchu	Marylise	F	0	.
-46	Pellerin	Fleur	F	0	.
-47	Hollande	François	H	0	.
-48	Lefebvre	Frédéric	H	0	.
-49	Coronado	Sergio	H	0	.
-50	Aubry	Martine	F	0	.
-51	Attard	Isabelle	F	0	.
-52	Castaner	Christophe	H	0	.
-53	Rebsamen	François	H	0	.
-54	Bertrand	Xavier	H	0	.
-55	Bartolone	Claude	H	0	.
-56	Dufay	Marie-Guite	F	0	.
-57	Taubira	Christiane	F	0	.
-58	Duflot	Cécile	F	0	.
-59	Juppé	Alain	H	0	.
-60	Cambadelis	Jean-Christophe	H	0	.
-61	Lignières-Cassou	Martine	F	0	.
-62	Bachelot	Roselyne	F	0	.
-63	Pécresse	Valérie	F	0	.
-64	Boutin	Christine	F	0	.
-65	Hulot	Nicolas	H	0	.
-66	Filippetti	Aurélie	F	0	.
-67	Borloo	Jean-Louis	H	0	.
-68	Bricq	Nicole	F	0	.
-69	Fourneyron	Valérie	F	0	.
-70	Montebourg	Arnaud	H	0	.
-71	Hamon	Benoît	H	0	.
-72	Moscovici	Pierre	H	0	.
-73	Batho	Delphine	F	0	.
-74	Peillon	Vincent	H	0	.
-75	Fioraso	Geneviève	F	0	.
-76	Delaunay	Michèle	F	0	.
-77	Cahuzac	Jérôme	H	0	.
-78	Voynet	Dominique	F	0	.
+ID	Nom	Prénom	H/F	Parti	Gouvernement	Wikipedia	Poste
+1	Philippe	Édouard	H	LR	1	https://fr.wikipedia.org/wiki/%C3%89douard_Philippe	Premier Ministre
+2	Bayrou	François	H	MoDem	0	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Bayrou	.
+3	Le Maire	Bruno	H	LR	0	https://fr.wikipedia.org/wiki/Bruno_Le_Maire	.
+4	Collomb	Gérard	H	PS	0	https://fr.wikipedia.org/wiki/G%C3%A9rard_Collomb	.
+5	Raffarin	Jean-Pierre	H	LR	0	https://fr.wikipedia.org/wiki/Jean-Pierre_Raffarin	.
+6	Cazeneuve	Bernard	H	PS	0	https://fr.wikipedia.org/wiki/Bernard_Cazeneuve	.
+7	Breton	Thierry	H		0	https://fr.wikipedia.org/wiki/Thierry_Breton	.
+8	Vallini	André	H	PS	0	https://fr.wikipedia.org/wiki/Andr%C3%A9_Vallini	.
+9	Placé	Jean-Vincent	H	UDE	0	https://fr.wikipedia.org/wiki/Jean-Vincent_Plac%C3%A9	.
+10	Méadel	Juliette	F	PS	0	https://fr.wikipedia.org/wiki/Juliette_M%C3%A9adel	.
+11	Ayrault	Jean-Marc	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Marc_Ayrault	.
+12	Désir	Harlem	H	PS	0	https://fr.wikipedia.org/wiki/Harlem_D%C3%A9sir	.
+13	Fekl	Matthias	H	PS	0	https://fr.wikipedia.org/wiki/Matthias_Fekl	.
+14	Le Guen	Jean-Marie	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Marie_Le_Guen	.
+15	Royal	Ségolène	F	PS	0	https://fr.wikipedia.org/wiki/S%C3%A9gol%C3%A8ne_Royal	.
+16	Vidalies	Alain	H	PS	0	https://fr.wikipedia.org/wiki/Alain_Vidalies	.
+17	Pompili	Barbara	F	REM	0	https://fr.wikipedia.org/wiki/Barbara_Pompili	.
+18	Vallaud-Belkacem	Najat	F	PS	0	https://fr.wikipedia.org/wiki/Najat_Vallaud-Belkacem	.
+19	Mandon	Thierry	H	PS	0	https://fr.wikipedia.org/wiki/Thierry_Mandon	.
+20	Sapin	Michel	H	PS	0	https://fr.wikipedia.org/wiki/Michel_Sapin	.
+21	Eckert	Christian	H	PS	0	https://fr.wikipedia.org/wiki/Christian_Eckert	.
+22	Lemaire	Axelle	F	PS	0	https://fr.wikipedia.org/wiki/Axelle_Lemaire	.
+23	Pinville	Martine	F	PS	0	https://fr.wikipedia.org/wiki/Martine_Pinville	.
+24	Sirugue	Christophe	H	PS	0	https://fr.wikipedia.org/wiki/Christophe_Sirugue	.
+25	Touraine	Marisol	F	PS	0	https://fr.wikipedia.org/wiki/Marisol_Touraine	.
+26	Neuville	Ségolène	F	PS	0	https://fr.wikipedia.org/wiki/S%C3%A9gol%C3%A8ne_Neuville	.
+27	Boistard	Pascale	F	PS	0	https://fr.wikipedia.org/wiki/Pascale_Boistard	.
+28	Le Drian	Jean-Yves	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Yves_Le_Drian	.
+29	Todeschini	Jean-Marc	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Marc_Todeschini	.
+30	Urvoas	Jean-Jacques	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Jacques_Urvoas	.
+31	El Khomri	Myriam	F	PS	0	https://fr.wikipedia.org/wiki/Myriam_El_Khomri	.
+32	Valter	Clotilde	F	PS	0	https://fr.wikipedia.org/wiki/Clotilde_Valter	.
+33	Baylet	Jean-Michel	H	PRG	0	https://fr.wikipedia.org/wiki/Jean-Michel_Baylet	.
+34	Grelier	Estelle	F	PS	0	https://fr.wikipedia.org/wiki/Estelle_Grelier	.
+35	Leroux	Bruno	H	PS	0	https://fr.wikipedia.org/wiki/Bruno_Le_Roux	.
+36	Le Foll	Stéphane	H	PS	0	https://fr.wikipedia.org/wiki/St%C3%A9phane_Le_Foll	.
+37	Cosse	Emmanuelle	F	Parti écologiste	0	https://fr.wikipedia.org/wiki/Emmanuelle_Cosse	.
+38	Azoulay	Audrey	F		0	https://fr.wikipedia.org/wiki/Audrey_Azoulay	.
+39	Rossignol	Laurence	F	PS	0	https://fr.wikipedia.org/wiki/Laurence_Rossignol	.
+40	Girardin	Annick	F	PRG	0	https://fr.wikipedia.org/wiki/Annick_Girardin	.
+41	Kanner	Patrick	H	PS	0	https://fr.wikipedia.org/wiki/Patrick_Kanner	.
+42	Geoffroy	Hélène	F	PS	0	https://fr.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Geoffroy	.
+43	Braillard	Thierry	H	PRG	0	https://fr.wikipedia.org/wiki/Thierry_Braillard	.
+44	Bareigts	Ericka	F	PS	0	https://fr.wikipedia.org/wiki/Ericka_Bareigts	.
+45	Valls	Manuel	H	PS	0	https://fr.wikipedia.org/wiki/Manuel_Valls	.
+46	Macron	Emmanuel	H	REM	0	https://fr.wikipedia.org/wiki/Emmanuel_Macron	.
+47	Pau-Langevin	George	F	PS	0	https://fr.wikipedia.org/wiki/George_Pau-Langevin	.
+48	Fabius	Laurent	H	PS	0	https://fr.wikipedia.org/wiki/Laurent_Fabius	.
+49	Pinel	Sylvia	F	PRG	0	https://fr.wikipedia.org/wiki/Sylvia_Pinel	.
+50	Lebranchu	Marylise	F	PS	0	https://fr.wikipedia.org/wiki/Marylise_Lebranchu	.
+51	Pellerin	Fleur	F	PS	0	https://fr.wikipedia.org/wiki/Fleur_Pellerin	.
+52	Hollande	François	H	PS	0	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Hollande	.
+53	Lefebvre	Frédéric	H	LR	0	https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Lefebvre	.
+54	Coronado	Sergio	H	EELV	0	https://fr.wikipedia.org/wiki/Sergio_Coronado	.
+55	Aubry	Martine	F	PS	0	https://fr.wikipedia.org/wiki/Martine_Aubry	.
+56	Attard	Isabelle	F		0	https://fr.wikipedia.org/wiki/Isabelle_Attard	.
+57	Castaner	Christophe	H	REM	0	https://fr.wikipedia.org/wiki/Christophe_Castaner	.
+58	Rebsamen	François	H	PS	0	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Rebsamen	.
+59	Bertrand	Xavier	H	LR	0	https://fr.wikipedia.org/wiki/Xavier_Bertrand	.
+60	Bartolone	Claude	H	PS	0	https://fr.wikipedia.org/wiki/Claude_Bartolone	.
+61	Dufay	Marie-Guite	F	PS	0	https://fr.wikipedia.org/wiki/Marie-Guite_Dufay	.
+62	Taubira	Christiane	F	Walwari	0	https://fr.wikipedia.org/wiki/Christiane_Taubira	.
+63	Duflot	Cécile	F	EELV	0	https://fr.wikipedia.org/wiki/C%C3%A9cile_Duflot	.
+64	Juppé	Alain	H	LR	0	https://fr.wikipedia.org/wiki/Alain_Jupp%C3%A9	.
+65	Cambadelis	Jean-Christophe	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Christophe_Cambad%C3%A9lis	.
+66	Lignières-Cassou	Martine	F	PS	0	https://fr.wikipedia.org/wiki/Martine_Ligni%C3%A8res-Cassou	.
+67	Bachelot	Roselyne	F		0	https://fr.wikipedia.org/wiki/Roselyne_Bachelot	.
+68	Pécresse	Valérie	F	LR	0	https://fr.wikipedia.org/wiki/Val%C3%A9rie_P%C3%A9cresse	.
+69	Boutin	Christine	F	UDF	0	https://fr.wikipedia.org/wiki/Christine_Boutin	.
+70	Hulot	Nicolas	H		0	https://fr.wikipedia.org/wiki/Nicolas_Hulot	.
+71	Filippetti	Aurélie	F	PS	0	https://fr.wikipedia.org/wiki/Aur%C3%A9lie_Filippetti	.
+72	Borloo	Jean-Louis	H	UDI	0	https://fr.wikipedia.org/wiki/Jean-Louis_Borloo	.
+73	Bricq	Nicole	F	PS	0	https://fr.wikipedia.org/wiki/Nicole_Bricq	.
+74	Fourneyron	Valérie	F	PS	0	https://fr.wikipedia.org/wiki/Val%C3%A9rie_Fourneyron	.
+75	Montebourg	Arnaud	H	PS	0	https://fr.wikipedia.org/wiki/Arnaud_Montebourg	.
+76	Hamon	Benoît	H	PS	0	https://fr.wikipedia.org/wiki/Beno%C3%AEt_Hamon	.
+77	Moscovici	Pierre	H	PS	0	https://fr.wikipedia.org/wiki/Pierre_Moscovici	.
+78	Batho	Delphine	F	PS	0	https://fr.wikipedia.org/wiki/Delphine_Batho	.
+79	Peillon	Vincent	H	PS	0	https://fr.wikipedia.org/wiki/Vincent_Peillon	.
+80	Fioraso	Geneviève	F	PS	0	https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Fioraso	.
+81	Delaunay	Michèle	F	PS	0	https://fr.wikipedia.org/wiki/Mich%C3%A8le_Delaunay	.
+82	Cahuzac	Jérôme	H		0	https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Cahuzac	.
+83	Voynet	Dominique	F	EELV	0	https://fr.wikipedia.org/wiki/Dominique_Voynet	.
