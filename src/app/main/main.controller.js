@@ -103,7 +103,7 @@ export class MainController {
                 return 'à l\'Union des démocrates et indépendants';
             case 'EELV':
                 return 'à Europe Écologie Les Verts';
-            case 'MR'
+            case 'MR':
                 return 'au Mouvement Radical';
             default:
                 return `au ${party}`;
