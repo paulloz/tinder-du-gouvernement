@@ -1,0 +1,122 @@
+ID	Nom	Prénom	H/F	Parti	Gouvernement	Wikipedia	Poste
+1	Philippe	Édouard	H	DVD	1	https://fr.wikipedia.org/wiki/%C3%89douard_Philippe	Premier ministre
+2	de Rugy	François	H	REM	1	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Rugy	Ministre d'État, ministre de la Transition écologique et solidaire
+3	Belloubet	Nicole	F	DVG	1	https://fr.wikipedia.org/wiki/Nicole_Belloubet	Garde des Sceaux, ministre de la Justice
+4	Le Drian	Jean-Yves	H	DVG	1	https://fr.wikipedia.org/wiki/Jean-Yves_Le_Drian	Ministre de l'Europe et des Affaires étrangères
+5	Parly	Florence	F	DVG	1	https://fr.wikipedia.org/wiki/Florence_Parly	Ministre des Armées
+6	Castaner	Christophe	H	REM	1	https://fr.wikipedia.org/wiki/Christophe_Castaner	Ministre de l'Intérieur
+7	Gourault	Jacqueline 	F	MoDem	1	https://fr.wikipedia.org/wiki/Jacqueline_Gourault	Ministre de la Cohésion des Territoires et des Relations avec les Collectivités Territoriales 
+8	Buzyn	Agnès	F	REM	1	https://fr.wikipedia.org/wiki/Agn%C3%A8s_Buzyn	Ministre des Solidarités et de la Santé
+9	Le Maire	Bruno	H	REM	1	https://fr.wikipedia.org/wiki/Bruno_Le_Maire	Ministre de l'Économie et des Finances
+10	Riester	Franck	H	Agir	1	https://fr.wikipedia.org/wiki/Franck_Riester	Ministre de la Culture
+11	Pénicaud	Muriel	F	REM	1	https://fr.wikipedia.org/wiki/Muriel_P%C3%A9nicaud	Ministre du Travail
+12	Blanquer	Jean-Michel	H	REM	1	https://fr.wikipedia.org/wiki/Jean-Michel_Blanquer	Ministre de l'Éducation nationale et de la Jeunesse
+13	Guillaume	Didier	H	DVG	1	https://fr.wikipedia.org/wiki/Didier_Guillaume	Ministre de l'Agriculture et de l'Alimentation
+14	Darmanin	Gérald	H	REM	1	https://fr.wikipedia.org/wiki/G%C3%A9rald_Darmanin	Ministre de l'Action et des Comptes publics
+15	Vidal	Frédérique	F	REM	1	https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9rique_Vidal	Ministre de l'Enseignement supérieur, de la Recherche et de l'Innovation
+16	Girardin	Annick	F	MR	1	https://fr.wikipedia.org/wiki/Annick_Girardin	Ministre des Outre-mer
+17	Maracineanu	Roxana	F		1	https://fr.wikipedia.org/wiki/Roxana_Maracineanu	Ministre des Sports
+18	Fesneau	Marc	H	MoDem	1	https://fr.wikipedia.org/wiki/Marc_Fesneau	Ministre auprès du premier ministre, chargé des Relations avec le Parlement
+19	Borne	Élisabeth	F	REM	1	https://fr.wikipedia.org/wiki/%C3%89lisabeth_Borne	Ministre auprès du ministre d'État, ministre de la Transition écologique et solidaire, chargée des Transports
+20	Loiseau	Nathalie 	F	REM	1	https://fr.wikipedia.org/wiki/Nathalie_Loiseau	Ministre auprès du ministre de l'Europe et des Affaires étrangères, chargée des Affaires européennes
+21	Lecornu	Sébastien	H	REM	1	https://fr.wikipedia.org/wiki/S%C3%A9bastien_Lecornu	Ministre auprès de la ministre de la Cohésion des Territoires et des Relations avec les Collectivités Territoriales, chargé des collectivités territoriales
+22	Denormandie	Julien	H	REM	1	https://fr.wikipedia.org/wiki/Julien_Denormandie	Ministre auprès de la ministre de la Cohésion des Territoires et des Relations avec les Collectivités Territoriales, chargé de la ville et du logement 
+23	Griveaux	Benjamin 	H	REM	1	https://fr.wikipedia.org/wiki/Benjamin_Griveaux	Secrétaire d'État auprès du premier ministre, porte-parole du gouvernement
+24	Schiappa	Marlène	F	REM	1	https://fr.wikipedia.org/wiki/Marl%C3%A8ne_Schiappa	Secrétaire d'État auprès du premier ministre chargée de l'Égalité entre les femmes et les hommes et de la lutte contre les discriminations
+25	Cluzel	Sophie	F		1	https://fr.wikipedia.org/wiki/Sophie_Cluzel	Secrétaire d'État auprès du premier ministre chargée des Personnes handicapées
+26	Wargon	Emmanuelle	F		1	https://fr.wikipedia.org/wiki/Emmanuelle_Wargon	Secrétaire d'État auprès du ministre d'État, ministre de la Transition écologique et solidaire
+27	Poirson	Brune	F	REM	1	https://fr.wikipedia.org/wiki/Brune_Poirson	Secrétaire d'État auprès du ministre d'État, ministre de la Transition écologique et solidaire
+28	Lemoyne	Jean-Baptiste 	H	REM	1	https://fr.wikipedia.org/wiki/Jean-Baptiste_Lemoyne_(homme_politique)	Secrétaire d'État auprès du ministre de l'Europe et des Affaires étrangères
+29	Darrieussecq	Geneviève	F	MoDem	1	https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Darrieussecq	Secrétaire d'État auprès de la ministre des Armées
+30	Dubos	Christelle	F	REM	1	https://fr.wikipedia.org/wiki/Christelle_Dubos	Secrétaire d'État auprès de la ministre des Solidarités et de la Santé
+31	Mahjoubi	Mounir	H	REM	1	https://fr.wikipedia.org/wiki/Mounir_Mahjoubi	Secrétaire d'État auprès du ministre de l'Économie et des Finances et du ministre de l'Action et des Comptes publics
+32	Pannier-Runacher	Agnès	F	REM	1	https://fr.wikipedia.org/wiki/Agn%C3%A8s_Pannier-Runacher	Secrétaire d'État auprès du ministre de l'Économie et des Finances
+33	Dussopt	Olivier	H	DVG	1	https://fr.wikipedia.org/wiki/Olivier_Dussopt	Secrétaire d'État auprès du ministre de l'Action et des Comptes publics
+34	Attal	Gabriel	H	REM	1	https://fr.wikipedia.org/wiki/Gabriel_Attal	Secrétaire d'État auprès du ministre de l'Éducation nationale et de la Jeunesse
+35	Nuñez	Laurent	H		1	https://fr.wikipedia.org/wiki/Laurent_Nu%C3%B1ez	Secrétaire d'État auprès du ministre de l'Intérieur
+36	Collomb	Gérard	H	PS	0	https://fr.wikipedia.org/wiki/G%C3%A9rard_Collomb	
+37	Hulot	Nicolas	H		0	https://fr.wikipedia.org/wiki/Nicolas_Hulot	
+38	Mézard	Jacques	H	MR	0	https://fr.wikipedia.org/wiki/Jacques_M%C3%A9zard	
+39	Nyssen	Françoise	F		0	https://fr.wikipedia.org/wiki/Fran%C3%A7oise_Nyssen	
+40	Travert	Stéphane	H	REM	0	https://fr.wikipedia.org/wiki/St%C3%A9phane_Travert	
+41	Flessel-Colovic	Laura	F	REM	0	https://fr.wikipedia.org/wiki/Laura_Flessel-Colovic	
+42	Gény-Stephann	Delphine	F		0	https://fr.wikipedia.org/wiki/Delphine_G%C3%A9ny-Stephann	
+43	de Sarnez	Marielle	F	MoDem	0	https://fr.wikipedia.org/wiki/Marielle_de_Sarnez	.
+44	Ferrand	Richard	H	REM	0	https://fr.wikipedia.org/wiki/Richard_Ferrand	.
+45	Bayrou	François	H	MoDem	0	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Bayrou	.
+46	Goulard	Sylvie	F	REM	0	https://fr.wikipedia.org/wiki/Sylvie_Goulard	.
+47	Raffarin	Jean-Pierre	H	LR	0	https://fr.wikipedia.org/wiki/Jean-Pierre_Raffarin	.
+48	Cazeneuve	Bernard	H	PS	0	https://fr.wikipedia.org/wiki/Bernard_Cazeneuve	.
+49	Breton	Thierry	H		0	https://fr.wikipedia.org/wiki/Thierry_Breton	.
+50	Vallini	André	H	PS	0	https://fr.wikipedia.org/wiki/Andr%C3%A9_Vallini	.
+51	Placé	Jean-Vincent	H	UDE	0	https://fr.wikipedia.org/wiki/Jean-Vincent_Plac%C3%A9	.
+52	Méadel	Juliette	F	PS	0	https://fr.wikipedia.org/wiki/Juliette_M%C3%A9adel	.
+53	Ayrault	Jean-Marc	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Marc_Ayrault	.
+54	Désir	Harlem	H	PS	0	https://fr.wikipedia.org/wiki/Harlem_D%C3%A9sir	.
+55	Fekl	Matthias	H	PS	0	https://fr.wikipedia.org/wiki/Matthias_Fekl	.
+56	Le Guen	Jean-Marie	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Marie_Le_Guen	.
+57	Royal	Ségolène	F	PS	0	https://fr.wikipedia.org/wiki/S%C3%A9gol%C3%A8ne_Royal	.
+58	Vidalies	Alain	H	PS	0	https://fr.wikipedia.org/wiki/Alain_Vidalies	.
+59	Pompili	Barbara	F	REM	0	https://fr.wikipedia.org/wiki/Barbara_Pompili	.
+60	Vallaud-Belkacem	Najat	F	PS	0	https://fr.wikipedia.org/wiki/Najat_Vallaud-Belkacem	.
+61	Mandon	Thierry	H	PS	0	https://fr.wikipedia.org/wiki/Thierry_Mandon	.
+62	Sapin	Michel	H	PS	0	https://fr.wikipedia.org/wiki/Michel_Sapin	.
+63	Eckert	Christian	H	PS	0	https://fr.wikipedia.org/wiki/Christian_Eckert	.
+64	Lemaire	Axelle	F	PS	0	https://fr.wikipedia.org/wiki/Axelle_Lemaire	.
+65	Pinville	Martine	F	PS	0	https://fr.wikipedia.org/wiki/Martine_Pinville	.
+66	Sirugue	Christophe	H	PS	0	https://fr.wikipedia.org/wiki/Christophe_Sirugue	.
+67	Touraine	Marisol	F	PS	0	https://fr.wikipedia.org/wiki/Marisol_Touraine	.
+68	Neuville	Ségolène	F	PS	0	https://fr.wikipedia.org/wiki/S%C3%A9gol%C3%A8ne_Neuville	.
+69	Boistard	Pascale	F	PS	0	https://fr.wikipedia.org/wiki/Pascale_Boistard	.
+70	Todeschini	Jean-Marc	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Marc_Todeschini	.
+71	Urvoas	Jean-Jacques	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Jacques_Urvoas	.
+72	El Khomri	Myriam	F	PS	0	https://fr.wikipedia.org/wiki/Myriam_El_Khomri	.
+73	Valter	Clotilde	F	PS	0	https://fr.wikipedia.org/wiki/Clotilde_Valter	.
+74	Baylet	Jean-Michel	H	PRG	0	https://fr.wikipedia.org/wiki/Jean-Michel_Baylet	.
+75	Grelier	Estelle	F	PS	0	https://fr.wikipedia.org/wiki/Estelle_Grelier	.
+76	Leroux	Bruno	H	PS	0	https://fr.wikipedia.org/wiki/Bruno_Le_Roux	.
+77	Le Foll	Stéphane	H	PS	0	https://fr.wikipedia.org/wiki/St%C3%A9phane_Le_Foll	.
+78	Cosse	Emmanuelle	F	Parti écologiste	0	https://fr.wikipedia.org/wiki/Emmanuelle_Cosse	.
+79	Azoulay	Audrey	F		0	https://fr.wikipedia.org/wiki/Audrey_Azoulay	.
+80	Rossignol	Laurence	F	PS	0	https://fr.wikipedia.org/wiki/Laurence_Rossignol	.
+81	Kanner	Patrick	H	PS	0	https://fr.wikipedia.org/wiki/Patrick_Kanner	.
+82	Geoffroy	Hélène	F	PS	0	https://fr.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Geoffroy	.
+83	Braillard	Thierry	H	PRG	0	https://fr.wikipedia.org/wiki/Thierry_Braillard	.
+84	Bareigts	Ericka	F	PS	0	https://fr.wikipedia.org/wiki/Ericka_Bareigts	.
+85	Valls	Manuel	H	PS	0	https://fr.wikipedia.org/wiki/Manuel_Valls	.
+86	Macron	Emmanuel	H	REM	0	https://fr.wikipedia.org/wiki/Emmanuel_Macron	.
+87	Pau-Langevin	George	F	PS	0	https://fr.wikipedia.org/wiki/George_Pau-Langevin	.
+88	Fabius	Laurent	H	PS	0	https://fr.wikipedia.org/wiki/Laurent_Fabius	.
+89	Pinel	Sylvia	F	PRG	0	https://fr.wikipedia.org/wiki/Sylvia_Pinel	.
+90	Lebranchu	Marylise	F	PS	0	https://fr.wikipedia.org/wiki/Marylise_Lebranchu	.
+91	Pellerin	Fleur	F	PS	0	https://fr.wikipedia.org/wiki/Fleur_Pellerin	.
+92	Hollande	François	H	PS	0	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Hollande	.
+93	Lefebvre	Frédéric	H	LR	0	https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Lefebvre	.
+94	Coronado	Sergio	H	EELV	0	https://fr.wikipedia.org/wiki/Sergio_Coronado	.
+95	Aubry	Martine	F	PS	0	https://fr.wikipedia.org/wiki/Martine_Aubry	.
+96	Attard	Isabelle	F		0	https://fr.wikipedia.org/wiki/Isabelle_Attard	.
+97	Rebsamen	François	H	PS	0	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Rebsamen	.
+98	Bertrand	Xavier	H	LR	0	https://fr.wikipedia.org/wiki/Xavier_Bertrand	.
+99	Bartolone	Claude	H	PS	0	https://fr.wikipedia.org/wiki/Claude_Bartolone	.
+100	Dufay	Marie-Guite	F	PS	0	https://fr.wikipedia.org/wiki/Marie-Guite_Dufay	.
+101	Taubira	Christiane	F	Walwari	0	https://fr.wikipedia.org/wiki/Christiane_Taubira	.
+102	Duflot	Cécile	F	EELV	0	https://fr.wikipedia.org/wiki/C%C3%A9cile_Duflot	.
+103	Juppé	Alain	H	LR	0	https://fr.wikipedia.org/wiki/Alain_Jupp%C3%A9	.
+104	Cambadelis	Jean-Christophe	H	PS	0	https://fr.wikipedia.org/wiki/Jean-Christophe_Cambad%C3%A9lis	.
+105	Lignières-Cassou	Martine	F	PS	0	https://fr.wikipedia.org/wiki/Martine_Ligni%C3%A8res-Cassou	.
+106	Bachelot	Roselyne	F		0	https://fr.wikipedia.org/wiki/Roselyne_Bachelot	.
+107	Pécresse	Valérie	F	LR	0	https://fr.wikipedia.org/wiki/Val%C3%A9rie_P%C3%A9cresse	.
+108	Boutin	Christine	F	UDF	0	https://fr.wikipedia.org/wiki/Christine_Boutin	.
+109	Filippetti	Aurélie	F	PS	0	https://fr.wikipedia.org/wiki/Aur%C3%A9lie_Filippetti	.
+110	Borloo	Jean-Louis	H	UDI	0	https://fr.wikipedia.org/wiki/Jean-Louis_Borloo	.
+111	Bricq	Nicole	F	PS	0	https://fr.wikipedia.org/wiki/Nicole_Bricq	.
+112	Fourneyron	Valérie	F	PS	0	https://fr.wikipedia.org/wiki/Val%C3%A9rie_Fourneyron	.
+113	Montebourg	Arnaud	H	PS	0	https://fr.wikipedia.org/wiki/Arnaud_Montebourg	.
+114	Hamon	Benoît	H	PS	0	https://fr.wikipedia.org/wiki/Beno%C3%AEt_Hamon	.
+115	Moscovici	Pierre	H	PS	0	https://fr.wikipedia.org/wiki/Pierre_Moscovici	.
+116	Batho	Delphine	F	PS	0	https://fr.wikipedia.org/wiki/Delphine_Batho	.
+117	Peillon	Vincent	H	PS	0	https://fr.wikipedia.org/wiki/Vincent_Peillon	.
+118	Fioraso	Geneviève	F	PS	0	https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Fioraso	.
+119	Delaunay	Michèle	F	PS	0	https://fr.wikipedia.org/wiki/Mich%C3%A8le_Delaunay	.
+120	Cahuzac	Jérôme	H		0	https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Cahuzac	.
+121	Voynet	Dominique	F	EELV	0	https://fr.wikipedia.org/wiki/Dominique_Voynet	.
