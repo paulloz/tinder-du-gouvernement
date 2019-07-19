@@ -1,6 +1,6 @@
 ID	Nom	Prénom	H/F	Parti	Gouvernement	Wikipedia	Poste
 1	Philippe	Édouard	H	DVD	1	https://fr.wikipedia.org/wiki/%C3%89douard_Philippe	Premier ministre
-2	de Rugy	François	H	REM	1	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Rugy	Ministre d'État, ministre de la Transition écologique et solidaire
+2	de Rugy	François	H	REM	0	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Rugy	
 3	Belloubet	Nicole	F	DVG	1	https://fr.wikipedia.org/wiki/Nicole_Belloubet	Garde des Sceaux, ministre de la Justice
 4	Le Drian	Jean-Yves	H	DVG	1	https://fr.wikipedia.org/wiki/Jean-Yves_Le_Drian	Ministre de l'Europe et des Affaires étrangères
 5	Parly	Florence	F	DVG	1	https://fr.wikipedia.org/wiki/Florence_Parly	Ministre des Armées
@@ -17,7 +17,7 @@ ID	Nom	Prénom	H/F	Parti	Gouvernement	Wikipedia	Poste
 16	Girardin	Annick	F	MR	1	https://fr.wikipedia.org/wiki/Annick_Girardin	Ministre des Outre-mer
 17	Maracineanu	Roxana	F		1	https://fr.wikipedia.org/wiki/Roxana_Maracineanu	Ministre des Sports
 18	Fesneau	Marc	H	MoDem	1	https://fr.wikipedia.org/wiki/Marc_Fesneau	Ministre auprès du premier ministre, chargé des Relations avec le Parlement
-19	Borne	Élisabeth	F	REM	1	https://fr.wikipedia.org/wiki/%C3%89lisabeth_Borne	Ministre auprès du ministre d'État, ministre de la Transition écologique et solidaire, chargée des Transports
+19	Borne	Élisabeth	F	REM	1	https://fr.wikipedia.org/wiki/%C3%89lisabeth_Borne	Ministre de la Transition écologique et solidaire
 20	Loiseau	Nathalie 	F	REM	0	https://fr.wikipedia.org/wiki/Nathalie_Loiseau	.
 21	Lecornu	Sébastien	H	REM	1	https://fr.wikipedia.org/wiki/S%C3%A9bastien_Lecornu	Ministre auprès de la ministre de la Cohésion des Territoires et des Relations avec les Collectivités Territoriales, chargé des collectivités territoriales
 22	Denormandie	Julien	H	REM	1	https://fr.wikipedia.org/wiki/Julien_Denormandie	Ministre auprès de la ministre de la Cohésion des Territoires et des Relations avec les Collectivités Territoriales, chargé de la ville et du logement 
