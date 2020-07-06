@@ -3,6 +3,7 @@
 var path = require('path');
 var gulp = require('gulp');
 var conf = require('./conf');
+var useref = require('gulp-useref');
 
 var $ = require('gulp-load-plugins')({
   pattern: ['gulp-*', 'main-bower-files', 'uglify-save-license', 'del']
@@ -40,7 +41,6 @@ gulp.task('html', ['inject', 'partials'], function () {
 
   return gulp.src(path.join(conf.paths.tmp, '/serve/*.html'))
     .pipe($.inject(partialsInjectFile, partialsInjectOptions))
-    .pipe(assets = $.useref.assets())
     .pipe($.rev())
     .pipe(jsFilter)
     .pipe($.sourcemaps.init())
@@ -52,8 +52,7 @@ gulp.task('html', ['inject', 'partials'], function () {
     .pipe($.minifyCss({ processImport: false }))
     .pipe($.sourcemaps.write('maps'))
     .pipe(cssFilter.restore)
-    .pipe(assets.restore())
-    .pipe($.useref())
+    .pipe(useref())
     .pipe($.revReplace())
     .pipe(htmlFilter)
     .pipe($.minifyHtml({
