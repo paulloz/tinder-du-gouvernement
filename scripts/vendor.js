@@ -847,7 +847,7 @@ function arrayRemove(array, value) {
  *
  * @example
  <example module="copyExample">
- <file name="index-10fd28ec81.html">
+ <file name="index-f51e4cc5f9.html">
  <div ng-controller="ExampleController">
  <form novalidate class="simple-form">
  Name: <input type="text" ng-model="user.name" /><br />
@@ -1490,7 +1490,7 @@ function getNgAttribute(element, ngAttr) {
  * `ngApp` is the easiest, and most common way to bootstrap an application.
  *
  <example module="ngAppDemo">
-   <file name="index-10fd28ec81.html">
+   <file name="index-f51e4cc5f9.html">
    <div ng-controller="ngAppDemoController">
      I can add: {{a}} + {{b}} =  {{ a+b }}
    </div>
@@ -1506,7 +1506,7 @@ function getNgAttribute(element, ngAttr) {
  * Using `ngStrictDi`, you would see something like this:
  *
  <example ng-app-included="true">
-   <file name="index-10fd28ec81.html">
+   <file name="index-f51e4cc5f9.html">
    <div ng-app="ngAppStrictDemo" ng-strict-di>
        <div ng-controller="GoodController1">
            I can add: {{a}} + {{b}} =  {{ a+b }}
@@ -4669,7 +4669,7 @@ function $AnchorScrollProvider() {
    *
    * @example
      <example module="anchorScrollExample">
-       <file name="index-10fd28ec81.html">
+       <file name="index-f51e4cc5f9.html">
          <div id="scrollArea" ng-controller="ScrollController">
            <a ng-click="gotoBottom()">Go to bottom</a>
            <a id="bottom"></a> You're at the bottom!
@@ -4708,7 +4708,7 @@ function $AnchorScrollProvider() {
    *
    * @example
      <example module="anchorScrollOffsetExample">
-       <file name="index-10fd28ec81.html">
+       <file name="index-f51e4cc5f9.html">
          <div class="fixed-header" ng-controller="headerCtrl">
            <a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [1,2,3,4,5]">
              Go to anchor {{x}}
@@ -6114,7 +6114,7 @@ function $BrowserProvider() {
  *
  * @example
    <example module="cacheExampleApp">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <div ng-controller="CacheController">
          <input ng-model="newCacheKey" placeholder="Key">
          <input ng-model="newCacheValue" placeholder="Value">
@@ -7102,7 +7102,7 @@ function $TemplateCacheProvider() {
  * </div>
  *
  <example module="compileExample">
-   <file name="index-10fd28ec81.html">
+   <file name="index-f51e4cc5f9.html">
     <script>
       angular.module('compileExample', [], function($compileProvider) {
         // configure new 'compile' directive by passing a directive
@@ -9488,7 +9488,7 @@ function $ControllerProvider() {
  *
  * @example
    <example module="documentExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <div ng-controller="ExampleController">
          <p>$document title: <b ng-bind="title"></b></p>
          <p>window.document title: <b ng-bind="windowTitle"></b></p>
@@ -10423,7 +10423,7 @@ function $HttpProvider() {
      *
      * @example
 <example module="httpExample">
-<file name="index-10fd28ec81.html">
+<file name="index-f51e4cc5f9.html">
   <div ng-controller="FetchController">
     <select ng-model="method" aria-label="Request method">
       <option>GET</option>
@@ -11131,7 +11131,7 @@ $interpolateMinErr.interr = function(text, err) {
  *
  * @example
 <example name="custom-interpolation-markup" module="customInterpolationApp">
-<file name="index-10fd28ec81.html">
+<file name="index-f51e4cc5f9.html">
 <script>
   var customInterpolationApp = angular.module('customInterpolationApp', []);
 
@@ -11294,7 +11294,7 @@ function $InterpolateProvider() {
      * when otherwise untrusted data is used by a directive.
      *
      * <example>
-     *  <file name="index-10fd28ec81.html">
+     *  <file name="index-f51e4cc5f9.html">
      *    <div ng-init="username='A user'">
      *      <p ng-init="apptitle='Escaping demo'">{{apptitle}}: \{\{ username = "defaced value"; \}\}
      *        </p>
@@ -11507,7 +11507,7 @@ function $IntervalProvider() {
       *
       * @example
       * <example module="intervalExample">
-      * <file name="index-10fd28ec81.html">
+      * <file name="index-f51e4cc5f9.html">
       *   <script>
       *     angular.module('intervalExample', [])
       *       .controller('ExampleController', ['$scope', '$interval',
@@ -12678,7 +12678,7 @@ function $LocationProvider() {
            $scope.message = 'Hello World!';
          }]);
      </file>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <div ng-controller="LogController">
          <p>Reload this page with open console, enter text and hit the log button...</p>
          <label>Message:
@@ -17458,7 +17458,7 @@ function $SceDelegateProvider() {
  * ## Show me an example using SCE.
  *
  * <example module="mySceApp" deps="angular-sanitize.js">
- * <file name="index-10fd28ec81.html">
+ * <file name="index-f51e4cc5f9.html">
  *   <div ng-controller="AppController as myCtrl">
  *     <i ng-bind-html="myCtrl.explicitlyTrustedHtml" id="explicitlyTrustedHtml"></i><br><br>
  *     <b>User comments</b><br>
@@ -18422,7 +18422,7 @@ function urlIsSameOrigin(requestUrl) {
  *
  * @example
    <example module="windowExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
          angular.module('windowExample', [])
            .controller('ExampleController', ['$scope', '$window', function($scope, $window) {
@@ -18588,7 +18588,7 @@ function $$CookieReaderProvider() {
  * @return {Function} the filter function
  * @example
    <example name="$filter" module="filterExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <div ng-controller="MainCtrl">
         <h3>{{ originalText }}</h3>
         <h3>{{ filteredText }}</h3>
@@ -18729,7 +18729,7 @@ function $FilterProvider($provide) {
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <div ng-init="friends = [{name:'John', phone:'555-1276'},
                                 {name:'Mary', phone:'800-BIG-MARY'},
                                 {name:'Mike', phone:'555-4321'},
@@ -18944,7 +18944,7 @@ var ZERO_CHAR = '0';
  *
  * @example
    <example module="currencyExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
          angular.module('currencyExample', [])
            .controller('ExampleController', ['$scope', function($scope) {
@@ -19022,7 +19022,7 @@ function currencyFilter($locale) {
  *
  * @example
    <example module="numberFilterExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
          angular.module('numberFilterExample', [])
            .controller('ExampleController', ['$scope', function($scope) {
@@ -19445,7 +19445,7 @@ var DATE_FORMATS_SPLIT = /((?:[^yMdHhmsaZEwG']+)|(?:'(?:[^']|'')*')|(?:E+|y+|M+|
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <span ng-non-bindable>{{1288323623006 | date:'medium'}}</span>:
            <span>{{1288323623006 | date:'medium'}}</span><br>
        <span ng-non-bindable>{{1288323623006 | date:'yyyy-MM-dd HH:mm:ss Z'}}</span>:
@@ -19564,7 +19564,7 @@ function dateFilter($locale) {
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <pre id="default-spacing">{{ {'name':'value'} | json }}</pre>
        <pre id="custom-spacing">{{ {'name':'value'} | json:4 }}</pre>
      </file>
@@ -19632,7 +19632,7 @@ var uppercaseFilter = valueFn(uppercase);
  *
  * @example
    <example module="limitToExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
          angular.module('limitToExample', [])
            .controller('ExampleController', ['$scope', function($scope) {
@@ -19773,7 +19773,7 @@ function limitToFilter() {
  * by age in descending order (predicate is set to `'-age'`).
  * `reverse` is not set, which means it defaults to `false`.
    <example module="orderByExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <div ng-controller="ExampleController">
          <table class="friend">
            <tr>
@@ -19806,7 +19806,7 @@ function limitToFilter() {
  * as shown in the next example.
  * @example
    <example module="orderByExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <div ng-controller="ExampleController">
          <pre>Sorting predicate = {{predicate}}; reverse = {{reverse}}</pre>
          <hr/>
@@ -19869,7 +19869,7 @@ function limitToFilter() {
  *
  * @example
   <example module="orderByExample">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
     <div ng-controller="ExampleController">
       <pre>Sorting predicate = {{predicate}}; reverse = {{reverse}}</pre>
       <table class="friend">
@@ -20121,7 +20121,7 @@ var htmlAnchorDirective = valueFn({
  * This example shows various combinations of `href`, `ng-href` and `ng-click` attributes
  * in links and their different behaviors:
     <example>
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <input ng-model="value" /><br />
         <a id="link-1" href ng-click="value = 1">link 1</a> (link, don't reload)<br />
         <a id="link-2" href="" ng-click="value = 2">link 2</a> (link, don't reload)<br />
@@ -20257,7 +20257,7 @@ var htmlAnchorDirective = valueFn({
  *
  * @example
     <example>
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <label>Click me to toggle: <input type="checkbox" ng-model="checked"></label><br/>
         <button ng-model="button" ng-disabled="checked">Button</button>
       </file>
@@ -20293,7 +20293,7 @@ var htmlAnchorDirective = valueFn({
  *
  * @example
     <example>
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <label>Check me to check both: <input type="checkbox" ng-model="master"></label><br/>
         <input id="checkSlave" type="checkbox" ng-checked="master" aria-label="Slave input">
       </file>
@@ -20327,7 +20327,7 @@ var htmlAnchorDirective = valueFn({
  *
  * @example
     <example>
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <label>Check me to make text readonly: <input type="checkbox" ng-model="checked"></label><br/>
         <input type="text" ng-readonly="checked" value="I'm Angular" aria-label="Readonly field" />
       </file>
@@ -20361,7 +20361,7 @@ var htmlAnchorDirective = valueFn({
  *
  * @example
     <example>
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <label>Check me to select: <input type="checkbox" ng-model="selected"></label><br/>
         <select aria-label="ngSelected demo">
           <option>Hello!</option>
@@ -20397,7 +20397,7 @@ var htmlAnchorDirective = valueFn({
  *
  * @example
      <example>
-       <file name="index-10fd28ec81.html">
+       <file name="index-f51e4cc5f9.html">
          <label>Check me check multiple: <input type="checkbox" ng-model="open"></label><br/>
          <details id="details" ng-open="open">
             <summary>Show/Hide me</summary>
@@ -20924,7 +20924,7 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
  *
  * @example
     <example deps="angular-animate.js" animations="true" fixBase="true" module="formExample">
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
        <script>
          angular.module('formExample', [])
            .controller('FormController', ['$scope', function($scope) {
@@ -21140,7 +21140,7 @@ var inputType = {
    *
    * @example
       <example name="text-input-directive" module="textInputExample">
-        <file name="index-10fd28ec81.html">
+        <file name="index-f51e4cc5f9.html">
          <script>
            angular.module('textInputExample', [])
              .controller('ExampleController', ['$scope', function($scope) {
@@ -21237,7 +21237,7 @@ var inputType = {
      *
      * @example
      <example name="date-input-directive" module="dateInputExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
           angular.module('dateInputExample', [])
             .controller('DateController', ['$scope', function($scope) {
@@ -21340,7 +21340,7 @@ var inputType = {
     *
     * @example
     <example name="datetimelocal-input-directive" module="dateExample">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <script>
         angular.module('dateExample', [])
           .controller('DateController', ['$scope', function($scope) {
@@ -21444,7 +21444,7 @@ var inputType = {
    *
    * @example
    <example name="time-input-directive" module="timeExample">
-   <file name="index-10fd28ec81.html">
+   <file name="index-f51e4cc5f9.html">
      <script>
       angular.module('timeExample', [])
         .controller('DateController', ['$scope', function($scope) {
@@ -21547,7 +21547,7 @@ var inputType = {
     *
     * @example
     <example name="week-input-directive" module="weekExample">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <script>
       angular.module('weekExample', [])
         .controller('DateController', ['$scope', function($scope) {
@@ -21653,7 +21653,7 @@ var inputType = {
    *
    * @example
    <example name="month-input-directive" module="monthExample">
-   <file name="index-10fd28ec81.html">
+   <file name="index-f51e4cc5f9.html">
      <script>
       angular.module('monthExample', [])
         .controller('DateController', ['$scope', function($scope) {
@@ -21772,7 +21772,7 @@ var inputType = {
    *
    * @example
       <example name="number-input-directive" module="numberExample">
-        <file name="index-10fd28ec81.html">
+        <file name="index-f51e4cc5f9.html">
          <script>
            angular.module('numberExample', [])
              .controller('ExampleController', ['$scope', function($scope) {
@@ -21870,7 +21870,7 @@ var inputType = {
    *
    * @example
       <example name="url-input-directive" module="urlExample">
-        <file name="index-10fd28ec81.html">
+        <file name="index-f51e4cc5f9.html">
          <script>
            angular.module('urlExample', [])
              .controller('ExampleController', ['$scope', function($scope) {
@@ -21969,7 +21969,7 @@ var inputType = {
    *
    * @example
       <example name="email-input-directive" module="emailExample">
-        <file name="index-10fd28ec81.html">
+        <file name="index-f51e4cc5f9.html">
          <script>
            angular.module('emailExample', [])
              .controller('ExampleController', ['$scope', function($scope) {
@@ -22045,7 +22045,7 @@ var inputType = {
    *
    * @example
       <example name="radio-input-directive" module="radioExample">
-        <file name="index-10fd28ec81.html">
+        <file name="index-f51e4cc5f9.html">
          <script>
            angular.module('radioExample', [])
              .controller('ExampleController', ['$scope', function($scope) {
@@ -22107,7 +22107,7 @@ var inputType = {
    *
    * @example
       <example name="checkbox-input-directive" module="checkboxExample">
-        <file name="index-10fd28ec81.html">
+        <file name="index-f51e4cc5f9.html">
          <script>
            angular.module('checkboxExample', [])
              .controller('ExampleController', ['$scope', function($scope) {
@@ -22668,7 +22668,7 @@ function checkboxInputType(scope, element, attr, ctrl, $sniffer, $browser, $filt
  *
  * @example
     <example name="input-directive" module="inputExample">
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
        <script>
           angular.module('inputExample', [])
             .controller('ExampleController', ['$scope', function($scope) {
@@ -22806,7 +22806,7 @@ var CONSTANT_VALUE_REGEXP = /^(true|false|\d+)$/;
  *
  * @example
     <example name="ngValue-directive" module="valueExample">
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
        <script>
           angular.module('valueExample', [])
             .controller('ExampleController', ['$scope', function($scope) {
@@ -22887,7 +22887,7 @@ var ngValueDirective = function() {
  * @example
  * Enter a name in the Live Preview text box; the greeting below the text box changes instantly.
    <example module="bindExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
          angular.module('bindExample', [])
            .controller('ExampleController', ['$scope', function($scope) {
@@ -22947,7 +22947,7 @@ var ngBindDirective = ['$compile', function($compile) {
  * @example
  * Try it here: enter text in text box and watch the greeting change.
    <example module="bindExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
          angular.module('bindExample', [])
            .controller('ExampleController', ['$scope', function($scope) {
@@ -23020,7 +23020,7 @@ var ngBindTemplateDirective = ['$interpolate', '$compile', function($interpolate
  * @example
 
    <example module="bindHtmlExample" deps="angular-sanitize.js">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <div ng-controller="ExampleController">
         <p ng-bind-html="myHTML"></p>
        </div>
@@ -23094,7 +23094,7 @@ var ngBindHtmlDirective = ['$sce', '$parse', '$compile', function($sce, $parse, 
  *
  * @example
  * <example name="ngChange-directive" module="changeExample">
- *   <file name="index-10fd28ec81.html">
+ *   <file name="index-f51e4cc5f9.html">
  *     <script>
  *       angular.module('changeExample', [])
  *         .controller('ExampleController', ['$scope', function($scope) {
@@ -23309,7 +23309,7 @@ function classDirective(name, selector) {
  *
  * @example Example that demonstrates basic bindings via ngClass directive.
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <p ng-class="{strike: deleted, bold: important, 'has-error': error}">Map Syntax Example</p>
        <label>
           <input type="checkbox" ng-model="deleted">
@@ -23402,7 +23402,7 @@ function classDirective(name, selector) {
    The example below demonstrates how to perform animations using ngClass.
 
    <example module="ngAnimate" deps="angular-animate.js" animations="true">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <input id="setbtn" type="button" value="set" ng-click="myVar='my-class'">
       <input id="clearbtn" type="button" value="clear" ng-click="myVar=''">
       <br>
@@ -23465,7 +23465,7 @@ var ngClassDirective = classDirective('', true);
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
         <ol ng-init="names=['John', 'Mary', 'Cate', 'Suz']">
           <li ng-repeat="name in names">
            <span ng-class-odd="'odd'" ng-class-even="'even'">
@@ -23513,7 +23513,7 @@ var ngClassOddDirective = classDirective('Odd', 0);
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
         <ol ng-init="names=['John', 'Mary', 'Cate', 'Suz']">
           <li ng-repeat="name in names">
            <span ng-class-odd="'odd'" ng-class-even="'even'">
@@ -23579,7 +23579,7 @@ var ngClassEvenDirective = classDirective('Even', 1);
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
         <div id="template1" ng-cloak>{{ 'hello' }}</div>
         <div id="template2" class="ng-cloak">{{ 'world' }}</div>
      </file>
@@ -23663,7 +23663,7 @@ var ngCloakDirective = ngDirective({
  * This example demonstrates the `controller as` syntax.
  *
  * <example name="ngControllerAs" module="controllerAsExample">
- *   <file name="index-10fd28ec81.html">
+ *   <file name="index-f51e4cc5f9.html">
  *    <div id="ctrl-as-exmpl" ng-controller="SettingsController1 as settings">
  *      <label>Name: <input type="text" ng-model="settings.name"/></label>
  *      <button ng-click="settings.greet()">greet</button><br/>
@@ -23746,7 +23746,7 @@ var ngCloakDirective = ngDirective({
  * This example demonstrates the "attach to `$scope`" style of controller.
  *
  * <example name="ngController" module="controllerExample">
- *  <file name="index-10fd28ec81.html">
+ *  <file name="index-f51e4cc5f9.html">
  *   <div id="ctrl-exmpl" ng-controller="SettingsController2">
  *     <label>Name: <input type="text" ng-model="name"/></label>
  *     <button ng-click="greet()">greet</button><br/>
@@ -23919,7 +23919,7 @@ var ngControllerDirective = [function() {
       // Note: the suffix `.csp` in the example name triggers
       // csp mode in our http server!
       <example name="example.csp" module="cspExample" ng-csp="true">
-        <file name="index-10fd28ec81.html">
+        <file name="index-f51e4cc5f9.html">
           <div ng-controller="MainController as ctrl">
             <div>
               <button ng-click="ctrl.inc()" id="inc">Increment</button>
@@ -24054,7 +24054,7 @@ var ngControllerDirective = [function() {
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <button ng-click="count = count + 1" ng-init="count=0">
         Increment
       </button>
@@ -24129,7 +24129,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <button ng-dblclick="count = count + 1" ng-init="count=0">
         Increment (on double click)
       </button>
@@ -24153,7 +24153,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <button ng-mousedown="count = count + 1" ng-init="count=0">
         Increment (on mouse down)
       </button>
@@ -24177,7 +24177,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <button ng-mouseup="count = count + 1" ng-init="count=0">
         Increment (on mouse up)
       </button>
@@ -24200,7 +24200,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <button ng-mouseover="count = count + 1" ng-init="count=0">
         Increment (when mouse is over)
       </button>
@@ -24224,7 +24224,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <button ng-mouseenter="count = count + 1" ng-init="count=0">
         Increment (when mouse enters)
       </button>
@@ -24248,7 +24248,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <button ng-mouseleave="count = count + 1" ng-init="count=0">
         Increment (when mouse leaves)
       </button>
@@ -24272,7 +24272,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <button ng-mousemove="count = count + 1" ng-init="count=0">
         Increment (when mouse moves)
       </button>
@@ -24296,7 +24296,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <input ng-keydown="count = count + 1" ng-init="count=0">
       key down count: {{count}}
      </file>
@@ -24318,7 +24318,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <p>Typing in the input box below updates the key count</p>
        <input ng-keyup="count = count + 1" ng-init="count=0"> key up count: {{count}}
 
@@ -24345,7 +24345,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <input ng-keypress="count = count + 1" ng-init="count=0">
       key press count: {{count}}
      </file>
@@ -24378,7 +24378,7 @@ forEach(
  *
  * @example
    <example module="submitExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <script>
         angular.module('submitExample', [])
           .controller('ExampleController', ['$scope', function($scope) {
@@ -24474,7 +24474,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <input ng-copy="copied=true" ng-init="copied=false; value='copy me'" ng-model="value">
       copied: {{copied}}
      </file>
@@ -24495,7 +24495,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <input ng-cut="cut=true" ng-init="cut=false; value='cut me'" ng-model="value">
       cut: {{cut}}
      </file>
@@ -24516,7 +24516,7 @@ forEach(
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
       <input ng-paste="paste=true" ng-init="paste=false" placeholder='paste here'>
       pasted: {{paste}}
      </file>
@@ -24569,7 +24569,7 @@ forEach(
  *
  * @example
   <example module="ngAnimate" deps="angular-animate.js" animations="true">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <label>Click me: <input type="checkbox" ng-model="checked" ng-init="checked=true" /></label><br/>
       Show when checked:
       <span ng-if="checked" class="animate-if">
@@ -24697,7 +24697,7 @@ var ngIfDirective = ['$animate', function($animate) {
  *
  * @example
   <example module="includeExample" deps="angular-animate.js" animations="true">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
      <div ng-controller="ExampleController">
        <select ng-model="template" ng-options="t.name for t in templates">
         <option value="">(blank)</option>
@@ -24982,7 +24982,7 @@ var ngIncludeFillContentDirective = ['$compile',
  *
  * @example
    <example module="initExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
    <script>
      angular.module('initExample', [])
        .controller('ExampleController', ['$scope', function($scope) {
@@ -25046,7 +25046,7 @@ var ngInitDirective = ngDirective({
  *          $scope.names = ['morpheus', 'neo', 'trinity'];
  *        }]);
  *   </file>
- *   <file name="index-10fd28ec81.html">
+ *   <file name="index-f51e4cc5f9.html">
  *    <form name="myForm" ng-controller="ExampleController">
  *      <label>List: <input name="namesInput" ng-model="names" ng-list required></label>
  *      <span role="alert">
@@ -25086,7 +25086,7 @@ var ngInitDirective = ngDirective({
  *
  * ### Example - splitting on newline
  * <example name="ngList-directive-newlines">
- *   <file name="index-10fd28ec81.html">
+ *   <file name="index-f51e4cc5f9.html">
  *    <textarea ng-model="list" ng-list="&#10;" ng-trim="false"></textarea>
  *    <pre>{{ list | json }}</pre>
  *   </file>
@@ -25332,7 +25332,7 @@ is set to `true`. The parse error is stored in `ngModel.$error.parse`.
           };
         }]);
     </file>
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <form name="myForm">
        <div contenteditable
             name="myWidget" ng-model="userContent"
@@ -25615,7 +25615,7 @@ var NgModelController = ['$scope', '$exceptionHandler', '$attrs', '$element', '$
    *       };
    *     }]);
    *   </file>
-   *   <file name="index-10fd28ec81.html">
+   *   <file name="index-f51e4cc5f9.html">
    *     <div ng-controller="CancelUpdateController">
    *        <p>Both of these inputs are only updated if they are blurred. Hitting escape should
    *        empty them. Follow these steps and observe the difference:</p>
@@ -26126,7 +26126,7 @@ var NgModelController = ['$scope', '$exceptionHandler', '$attrs', '$element', '$
  *
  * @example
  * <example deps="angular-animate.js" animations="true" fixBase="true" module="inputExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
         angular.module('inputExample', [])
           .controller('ExampleController', ['$scope', function($scope) {
@@ -26176,7 +26176,7 @@ var NgModelController = ['$scope', '$exceptionHandler', '$attrs', '$element', '$
  *
  * @example
  * <example name="ngModel-getter-setter" module="getterSetterExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <div ng-controller="ExampleController">
          <form name="userForm">
            <label>Name:
@@ -26313,7 +26313,7 @@ var DEFAULT_REGEXP = /(\s+|^)default(\s+|$)/;
   pressed while the input field is focused, the value is reset to the value in the current model.
 
   <example name="ngModelOptions-directive-blur" module="optionsExample">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <div ng-controller="ExampleController">
         <form name="userForm">
           <label>Name:
@@ -26370,7 +26370,7 @@ var DEFAULT_REGEXP = /(\s+|^)default(\s+|$)/;
   If the `Clear` button is pressed, any debounced action is canceled and the value becomes empty.
 
   <example name="ngModelOptions-directive-debounce" module="optionsExample">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <div ng-controller="ExampleController">
         <form name="userForm">
           <label>Name:
@@ -26395,7 +26395,7 @@ var DEFAULT_REGEXP = /(\s+|^)default(\s+|$)/;
   This one shows how to bind to getter/setters:
 
   <example name="ngModelOptions-directive-getter-setter" module="getterSetterExample">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <div ng-controller="ExampleController">
         <form name="userForm">
           <label>Name:
@@ -26573,7 +26573,7 @@ function isObjectEmpty(obj) {
  *
  * @example
     <example>
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <div>Normal: {{1 + 2}}</div>
         <div ng-non-bindable>Ignored: {{1 + 2}}</div>
       </file>
@@ -26745,7 +26745,7 @@ var ngOptionsMinErr = minErr('ngOptions');
  *
  * @example
     <example module="selectExample">
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <script>
         angular.module('selectExample', [])
           .controller('ExampleController', ['$scope', function($scope) {
@@ -27449,7 +27449,7 @@ var ngOptionsDirective = ['$compile', '$parse', function($compile, $parse) {
  *
  * @example
     <example module="pluralizeExample">
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <script>
           angular.module('pluralizeExample', [])
             .controller('ExampleController', ['$scope', function($scope) {
@@ -27820,7 +27820,7 @@ var ngPluralizeDirective = ['$locale', '$interpolate', '$log', function($locale,
  * This example initializes the scope to a list of names and
  * then uses `ngRepeat` to display every person:
   <example module="ngAnimate" deps="angular-animate.js" animations="true">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <div ng-init="friends = [
         {name:'John', age:25, gender:'boy'},
         {name:'Jessie', age:30, gender:'girl'},
@@ -28231,7 +28231,7 @@ var NG_HIDE_IN_PROGRESS_CLASS = 'ng-hide-animate';
  *
  * @example
   <example module="ngAnimate" deps="angular-animate.js" animations="true">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       Click me: <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br/>
       <div>
         Show:
@@ -28395,7 +28395,7 @@ var ngShowDirective = ['$animate', function($animate) {
  *
  * @example
   <example module="ngAnimate" deps="angular-animate.js" animations="true">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       Click me: <input type="checkbox" ng-model="checked" aria-label="Toggle ngShow"><br/>
       <div>
         Show:
@@ -28487,7 +28487,7 @@ var ngHideDirective = ['$animate', function($animate) {
  *
  * @example
    <example>
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
         <input type="button" value="set color" ng-click="myStyle={color:'red'}">
         <input type="button" value="set background" ng-click="myStyle={'background-color':'blue'}">
         <input type="button" value="clear" ng-click="myStyle={}">
@@ -28578,7 +28578,7 @@ var ngStyleDirective = ngDirective(function(scope, element, attr) {
  *
  * @example
   <example module="switchExample" deps="angular-animate.js" animations="true">
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <div ng-controller="ExampleController">
         <select ng-model="selection" ng-options="item for item in items">
         </select>
@@ -28739,7 +28739,7 @@ var ngSwitchDefaultDirective = ngDirective({
  *
  * @example
    <example module="transcludeExample">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
          angular.module('transcludeExample', [])
           .directive('pane', function(){
@@ -28814,7 +28814,7 @@ var ngTranscludeDirective = ngDirective({
  *
  * @example
   <example>
-    <file name="index-10fd28ec81.html">
+    <file name="index-f51e4cc5f9.html">
       <script type="text/ng-template" id="/tpl.html">
         Content of the template.
       </script>
@@ -29050,7 +29050,7 @@ var SelectController =
  * ### Simple `select` elements with static options
  *
  * <example name="static-select" module="staticSelect">
- * <file name="index-10fd28ec81.html">
+ * <file name="index-f51e4cc5f9.html">
  * <div ng-controller="ExampleController">
  *   <form name="myForm">
  *     <label for="singleSelect"> Single select: </label><br>
@@ -29097,7 +29097,7 @@ var SelectController =
  *
  * ### Using `ngRepeat` to generate `select` options
  * <example name="ngrepeat-select" module="ngrepeatSelect">
- * <file name="index-10fd28ec81.html">
+ * <file name="index-f51e4cc5f9.html">
  * <div ng-controller="ExampleController">
  *   <form name="myForm">
  *     <label for="repeatSelect"> Repeat select: </label>
@@ -29129,7 +29129,7 @@ var SelectController =
  * See the {@link ngOptions ngOptions documentation} for more `ngOptions` usage examples.
  *
  * <example name="select-with-default-values" module="defaultValueSelect">
- * <file name="index-10fd28ec81.html">
+ * <file name="index-f51e4cc5f9.html">
  * <div ng-controller="ExampleController">
  *   <form name="myForm">
  *     <label for="mySelect">Make a choice:</label>
@@ -29160,7 +29160,7 @@ var SelectController =
  * ### Binding `select` to a non-string value via `ngModel` parsing / formatting
  *
  * <example name="select-with-non-string-options" module="nonStringSelect">
- *   <file name="index-10fd28ec81.html">
+ *   <file name="index-f51e4cc5f9.html">
  *     <select ng-model="model.id" convert-to-number>
  *       <option value="0">Zero</option>
  *       <option value="1">One</option>
@@ -29357,7 +29357,7 @@ var styleDirective = valueFn({
  *
  * @example
  * <example name="ngRequiredDirective" module="ngRequiredExample">
- *   <file name="index-10fd28ec81.html">
+ *   <file name="index-f51e4cc5f9.html">
  *     <script>
  *       angular.module('ngRequiredExample', [])
  *         .controller('ExampleController', ['$scope', function($scope) {
@@ -29450,7 +29450,7 @@ var requiredDirective = function() {
  *
  * @example
  * <example name="ngPatternDirective" module="ngPatternExample">
- *   <file name="index-10fd28ec81.html">
+ *   <file name="index-f51e4cc5f9.html">
  *     <script>
  *       angular.module('ngPatternExample', [])
  *         .controller('ExampleController', ['$scope', function($scope) {
@@ -29547,7 +29547,7 @@ var patternDirective = function() {
  *
  * @example
  * <example name="ngMaxlengthDirective" module="ngMaxlengthExample">
- *   <file name="index-10fd28ec81.html">
+ *   <file name="index-f51e4cc5f9.html">
  *     <script>
  *       angular.module('ngMaxlengthExample', [])
  *         .controller('ExampleController', ['$scope', function($scope) {
@@ -29633,7 +29633,7 @@ var maxlengthDirective = function() {
  *
  * @example
  * <example name="ngMinlengthDirective" module="ngMinlengthExample">
- *   <file name="index-10fd28ec81.html">
+ *   <file name="index-f51e4cc5f9.html">
  *     <script>
  *       angular.module('ngMinlengthExample', [])
  *         .controller('ExampleController', ['$scope', function($scope) {
@@ -30075,7 +30075,7 @@ ngTouch.factory('$swipe', [function() {
  *
  * @example
     <example module="ngClickExample" deps="angular-touch.js">
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <button ng-click="count = count + 1" ng-init="count=0">
           Increment
         </button>
@@ -30364,7 +30364,7 @@ ngTouch.directive('ngClick', ['$parse', '$timeout', '$rootElement',
  *
  * @example
     <example module="ngSwipeLeftExample" deps="angular-touch.js">
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <div ng-show="!showActions" ng-swipe-left="showActions = true">
           Some list content, like an email in the inbox
         </div>
@@ -30397,7 +30397,7 @@ ngTouch.directive('ngClick', ['$parse', '$timeout', '$rootElement',
  *
  * @example
     <example module="ngSwipeRightExample" deps="angular-touch.js">
-      <file name="index-10fd28ec81.html">
+      <file name="index-f51e4cc5f9.html">
         <div ng-show="!showActions" ng-swipe-left="showActions = true">
           Some list content, like an email in the inbox
         </div>
@@ -30549,7 +30549,7 @@ var $sanitizeMinErr = angular.$$minErr('$sanitize');
  *
  * @example
    <example module="sanitizeExample" deps="angular-sanitize.js">
-   <file name="index-10fd28ec81.html">
+   <file name="index-f51e4cc5f9.html">
      <script>
          angular.module('sanitizeExample', ['ngSanitize'])
            .controller('ExampleController', ['$scope', '$sce', function($scope, $sce) {
@@ -31029,7 +31029,7 @@ angular.module('ngSanitize', []).provider('$sanitize', $SanitizeProvider);
  *
  * @example
    <example module="linkyExample" deps="angular-sanitize.js">
-     <file name="index-10fd28ec81.html">
+     <file name="index-f51e4cc5f9.html">
        <script>
          angular.module('linkyExample', ['ngSanitize'])
            .controller('ExampleController', ['$scope', function($scope) {
@@ -31176,14 +31176,15 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
   var undefined;
 
   /** Used as the semantic version number. */
-  var VERSION = '4.17.15';
+  var VERSION = '4.17.21';
 
   /** Used as the size to enable large array optimizations. */
   var LARGE_ARRAY_SIZE = 200;
 
   /** Error message constants. */
   var CORE_ERROR_TEXT = 'Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',
-      FUNC_ERROR_TEXT = 'Expected a function';
+      FUNC_ERROR_TEXT = 'Expected a function',
+      INVALID_TEMPL_VAR_ERROR_TEXT = 'Invalid `variable` option passed into `_.template`';
 
   /** Used to stand-in for `undefined` hash values. */
   var HASH_UNDEFINED = '__lodash_hash_undefined__';
@@ -31316,10 +31317,11 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
   var reRegExpChar = /[\\^$.*+?()[\]{}|]/g,
       reHasRegExpChar = RegExp(reRegExpChar.source);
 
-  /** Used to match leading and trailing whitespace. */
-  var reTrim = /^\s+|\s+$/g,
-      reTrimStart = /^\s+/,
-      reTrimEnd = /\s+$/;
+  /** Used to match leading whitespace. */
+  var reTrimStart = /^\s+/;
+
+  /** Used to match a single whitespace character. */
+  var reWhitespace = /\s/;
 
   /** Used to match wrap detail comments. */
   var reWrapComment = /\{(?:\n\/\* \[wrapped with .+\] \*\/)?\n?/,
@@ -31328,6 +31330,18 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
 
   /** Used to match words composed of alphanumeric characters. */
   var reAsciiWord = /[^\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\x7f]+/g;
+
+  /**
+   * Used to validate the `validate` option in `_.template` variable.
+   *
+   * Forbids characters which could potentially change the meaning of the function argument definition:
+   * - "()," (modification of function parameters)
+   * - "=" (default value)
+   * - "[]{}" (destructuring of function parameters)
+   * - "/" (beginning of a comment)
+   * - whitespace
+   */
+  var reForbiddenIdentifierChars = /[()=,{}\[\]\/\s]/;
 
   /** Used to match backslashes in property paths. */
   var reEscapeChar = /\\(\\)?/g;
@@ -32158,6 +32172,19 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
   }
 
   /**
+   * The base implementation of `_.trim`.
+   *
+   * @private
+   * @param {string} string The string to trim.
+   * @returns {string} Returns the trimmed string.
+   */
+  function baseTrim(string) {
+    return string
+      ? string.slice(0, trimmedEndIndex(string) + 1).replace(reTrimStart, '')
+      : string;
+  }
+
+  /**
    * The base implementation of `_.unary` without support for storing metadata.
    *
    * @private
@@ -32488,6 +32515,21 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
     return hasUnicode(string)
       ? unicodeToArray(string)
       : asciiToArray(string);
+  }
+
+  /**
+   * Used by `_.trim` and `_.trimEnd` to get the index of the last non-whitespace
+   * character of `string`.
+   *
+   * @private
+   * @param {string} string The string to inspect.
+   * @returns {number} Returns the index of the last non-whitespace character.
+   */
+  function trimmedEndIndex(string) {
+    var index = string.length;
+
+    while (index-- && reWhitespace.test(string.charAt(index))) {}
+    return index;
   }
 
   /**
@@ -34883,8 +34925,21 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      * @returns {Array} Returns the new sorted array.
      */
     function baseOrderBy(collection, iteratees, orders) {
+      if (iteratees.length) {
+        iteratees = arrayMap(iteratees, function(iteratee) {
+          if (isArray(iteratee)) {
+            return function(value) {
+              return baseGet(value, iteratee.length === 1 ? iteratee[0] : iteratee);
+            }
+          }
+          return iteratee;
+        });
+      } else {
+        iteratees = [identity];
+      }
+
       var index = -1;
-      iteratees = arrayMap(iteratees.length ? iteratees : [identity], baseUnary(getIteratee()));
+      iteratees = arrayMap(iteratees, baseUnary(getIteratee()));
 
       var result = baseMap(collection, function(value, key, collection) {
         var criteria = arrayMap(iteratees, function(iteratee) {
@@ -35141,6 +35196,10 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
         var key = toKey(path[index]),
             newValue = value;
 
+        if (key === '__proto__' || key === 'constructor' || key === 'prototype') {
+          return object;
+        }
+
         if (index != lastIndex) {
           var objValue = nested[key];
           newValue = customizer ? customizer(objValue, key, nested) : undefined;
@@ -35293,11 +35352,14 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      *  into `array`.
      */
     function baseSortedIndexBy(array, value, iteratee, retHighest) {
-      value = iteratee(value);
-
       var low = 0,
-          high = array == null ? 0 : array.length,
-          valIsNaN = value !== value,
+          high = array == null ? 0 : array.length;
+      if (high === 0) {
+        return 0;
+      }
+
+      value = iteratee(value);
+      var valIsNaN = value !== value,
           valIsNull = value === null,
           valIsSymbol = isSymbol(value),
           valIsUndefined = value === undefined;
@@ -36782,10 +36844,11 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
       if (arrLength != othLength && !(isPartial && othLength > arrLength)) {
         return false;
       }
-      // Assume cyclic values are equal.
-      var stacked = stack.get(array);
-      if (stacked && stack.get(other)) {
-        return stacked == other;
+      // Check that cyclic values are equal.
+      var arrStacked = stack.get(array);
+      var othStacked = stack.get(other);
+      if (arrStacked && othStacked) {
+        return arrStacked == other && othStacked == array;
       }
       var index = -1,
           result = true,
@@ -36947,10 +37010,11 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
           return false;
         }
       }
-      // Assume cyclic values are equal.
-      var stacked = stack.get(object);
-      if (stacked && stack.get(other)) {
-        return stacked == other;
+      // Check that cyclic values are equal.
+      var objStacked = stack.get(object);
+      var othStacked = stack.get(other);
+      if (objStacked && othStacked) {
+        return objStacked == other && othStacked == object;
       }
       var result = true;
       stack.set(object, other);
@@ -40331,6 +40395,10 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      * // The `_.property` iteratee shorthand.
      * _.filter(users, 'active');
      * // => objects for ['barney']
+     *
+     * // Combining several predicates using `_.overEvery` or `_.overSome`.
+     * _.filter(users, _.overSome([{ 'age': 36 }, ['age', 40]]));
+     * // => objects for ['fred', 'barney']
      */
     function filter(collection, predicate) {
       var func = isArray(collection) ? arrayFilter : baseFilter;
@@ -41080,15 +41148,15 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      * var users = [
      *   { 'user': 'fred',   'age': 48 },
      *   { 'user': 'barney', 'age': 36 },
-     *   { 'user': 'fred',   'age': 40 },
+     *   { 'user': 'fred',   'age': 30 },
      *   { 'user': 'barney', 'age': 34 }
      * ];
      *
      * _.sortBy(users, [function(o) { return o.user; }]);
-     * // => objects for [['barney', 36], ['barney', 34], ['fred', 48], ['fred', 40]]
+     * // => objects for [['barney', 36], ['barney', 34], ['fred', 48], ['fred', 30]]
      *
      * _.sortBy(users, ['user', 'age']);
-     * // => objects for [['barney', 34], ['barney', 36], ['fred', 40], ['fred', 48]]
+     * // => objects for [['barney', 34], ['barney', 36], ['fred', 30], ['fred', 48]]
      */
     var sortBy = baseRest(function(collection, iteratees) {
       if (collection == null) {
@@ -43632,7 +43700,7 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
       if (typeof value != 'string') {
         return value === 0 ? value : +value;
       }
-      value = value.replace(reTrim, '');
+      value = baseTrim(value);
       var isBinary = reIsBinary.test(value);
       return (isBinary || reIsOctal.test(value))
         ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
@@ -45963,11 +46031,11 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
 
       // Use a sourceURL for easier debugging.
       // The sourceURL gets injected into the source that's eval-ed, so be careful
-      // with lookup (in case of e.g. prototype pollution), and strip newlines if any.
-      // A newline wouldn't be a valid sourceURL anyway, and it'd enable code injection.
+      // to normalize all kinds of whitespace, so e.g. newlines (and unicode versions of it) can't sneak in
+      // and escape the comment, thus injecting code that gets evaled.
       var sourceURL = '//# sourceURL=' +
         (hasOwnProperty.call(options, 'sourceURL')
-          ? (options.sourceURL + '').replace(/[\r\n]/g, ' ')
+          ? (options.sourceURL + '').replace(/\s/g, ' ')
           : ('lodash.templateSources[' + (++templateCounter) + ']')
         ) + '\n';
 
@@ -46000,12 +46068,16 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
 
       // If `variable` is not specified wrap a with-statement around the generated
       // code to add the data object to the top of the scope chain.
-      // Like with sourceURL, we take care to not check the option's prototype,
-      // as this configuration is a code injection vector.
       var variable = hasOwnProperty.call(options, 'variable') && options.variable;
       if (!variable) {
         source = 'with (obj) {\n' + source + '\n}\n';
       }
+      // Throw an error if a forbidden character was found in `variable`, to prevent
+      // potential command injection attacks.
+      else if (reForbiddenIdentifierChars.test(variable)) {
+        throw new Error(INVALID_TEMPL_VAR_ERROR_TEXT);
+      }
+
       // Cleanup code by stripping empty strings.
       source = (isEvaluating ? source.replace(reEmptyStringLeading, '') : source)
         .replace(reEmptyStringMiddle, '$1')
@@ -46119,7 +46191,7 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
     function trim(string, chars, guard) {
       string = toString(string);
       if (string && (guard || chars === undefined)) {
-        return string.replace(reTrim, '');
+        return baseTrim(string);
       }
       if (!string || !(chars = baseToString(chars))) {
         return string;
@@ -46154,7 +46226,7 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
     function trimEnd(string, chars, guard) {
       string = toString(string);
       if (string && (guard || chars === undefined)) {
-        return string.replace(reTrimEnd, '');
+        return string.slice(0, trimmedEndIndex(string) + 1);
       }
       if (!string || !(chars = baseToString(chars))) {
         return string;
@@ -46708,6 +46780,9 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      * values against any array or object value, respectively. See `_.isEqual`
      * for a list of supported value comparisons.
      *
+     * **Note:** Multiple values can be checked by combining several matchers
+     * using `_.overSome`
+     *
      * @static
      * @memberOf _
      * @since 3.0.0
@@ -46723,6 +46798,10 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      *
      * _.filter(objects, _.matches({ 'a': 4, 'c': 6 }));
      * // => [{ 'a': 4, 'b': 5, 'c': 6 }]
+     *
+     * // Checking for several possible values
+     * _.filter(objects, _.overSome([_.matches({ 'a': 1 }), _.matches({ 'a': 4 })]));
+     * // => [{ 'a': 1, 'b': 2, 'c': 3 }, { 'a': 4, 'b': 5, 'c': 6 }]
      */
     function matches(source) {
       return baseMatches(baseClone(source, CLONE_DEEP_FLAG));
@@ -46736,6 +46815,9 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      * **Note:** Partial comparisons will match empty array and empty object
      * `srcValue` values against any array or object value, respectively. See
      * `_.isEqual` for a list of supported value comparisons.
+     *
+     * **Note:** Multiple values can be checked by combining several matchers
+     * using `_.overSome`
      *
      * @static
      * @memberOf _
@@ -46753,6 +46835,10 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      *
      * _.find(objects, _.matchesProperty('a', 4));
      * // => { 'a': 4, 'b': 5, 'c': 6 }
+     *
+     * // Checking for several possible values
+     * _.filter(objects, _.overSome([_.matchesProperty('a', 1), _.matchesProperty('a', 4)]));
+     * // => [{ 'a': 1, 'b': 2, 'c': 3 }, { 'a': 4, 'b': 5, 'c': 6 }]
      */
     function matchesProperty(path, srcValue) {
       return baseMatchesProperty(path, baseClone(srcValue, CLONE_DEEP_FLAG));
@@ -46976,6 +47062,10 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      * Creates a function that checks if **all** of the `predicates` return
      * truthy when invoked with the arguments it receives.
      *
+     * Following shorthands are possible for providing predicates.
+     * Pass an `Object` and it will be used as an parameter for `_.matches` to create the predicate.
+     * Pass an `Array` of parameters for `_.matchesProperty` and the predicate will be created using them.
+     *
      * @static
      * @memberOf _
      * @since 4.0.0
@@ -47002,6 +47092,10 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      * Creates a function that checks if **any** of the `predicates` return
      * truthy when invoked with the arguments it receives.
      *
+     * Following shorthands are possible for providing predicates.
+     * Pass an `Object` and it will be used as an parameter for `_.matches` to create the predicate.
+     * Pass an `Array` of parameters for `_.matchesProperty` and the predicate will be created using them.
+     *
      * @static
      * @memberOf _
      * @since 4.0.0
@@ -47021,6 +47115,9 @@ angular.module('ngSanitize').filter('linky', ['$sanitize', function($sanitize) {
      *
      * func(NaN);
      * // => false
+     *
+     * var matchesFunc = _.overSome([{ 'a': 1 }, { 'a': 2 }])
+     * var matchesPropertyFunc = _.overSome([['a', 1], ['a', 2]])
      */
     var overSome = createOver(arraySome);
 
