@@ -1,36 +1,36 @@
 ID	Nom	Prénom	H/F	Parti	Gouvernement	Wikipedia	Poste
-1	Castex	Jean	H	LR	1	https://fr.wikipedia.org/wiki/Jean_Castex	Premier ministre
-2	Le Drian	Jean-Yves	H	DVG	1	https://fr.wikipedia.org/wiki/Jean-Yves_Le_Drian	Ministre de l'Europe et des Affaires étrangères
-3	Pompili	Barbara	F	REM	1	https://fr.wikipedia.org/wiki/Barbara_Pompili	Ministre de la Transition écologique et solidaire
-4	Blanquer	Jean-Michel	H	REM	1	https://fr.wikipedia.org/wiki/Jean-Michel_Blanquer	Ministre de l'Éducation nationale, de la Jeunesse et des Sports
-5	Le Maire	Bruno	H	REM	1	https://fr.wikipedia.org/wiki/Bruno_Le_Maire	Ministre de l'Économie, des Finances et de la Relance
-6	Parly	Florence	F	DVG	1	https://fr.wikipedia.org/wiki/Florence_Parly	Ministre des Armées
-7	Darmanin	Gérald	H	REM	1	https://fr.wikipedia.org/wiki/G%C3%A9rald_Darmanin	Ministre de l'Intérieur
-8	Borne	Élisabeth	F	REM	1	https://fr.wikipedia.org/wiki/%C3%89lisabeth_Borne	Ministre du Travail, de l'Emploi et de l'Insertion
-9	Gourault	Jacqueline 	F	MoDem	1	https://fr.wikipedia.org/wiki/Jacqueline_Gourault	Ministre de la Cohésion des territoires et des Relations avec les collectivités territoriales
+1	Castex	Jean	H	LR	0	https://fr.wikipedia.org/wiki/Jean_Castex	.
+2	Le Drian	Jean-Yves	H	DVG	0	https://fr.wikipedia.org/wiki/Jean-Yves_Le_Drian	.
+3	Pompili	Barbara	F	REM	0	https://fr.wikipedia.org/wiki/Barbara_Pompili	.
+4	Blanquer	Jean-Michel	H	REM	0	https://fr.wikipedia.org/wiki/Jean-Michel_Blanquer	.
+5	Le Maire	Bruno	H	REM	1	https://fr.wikipedia.org/wiki/Bruno_Le_Maire	Ministre de l’Économie, des Finances et de la Souveraineté industrielle et numérique
+6	Parly	Florence	F	DVG	0	https://fr.wikipedia.org/wiki/Florence_Parly	.
+7	Darmanin	Gérald	H	REM	0	https://fr.wikipedia.org/wiki/G%C3%A9rald_Darmanin	.
+8	Borne	Élisabeth	F	TDP	1	https://fr.wikipedia.org/wiki/%C3%89lisabeth_Borne	Premier ministre
+9	Gourault	Jacqueline 	F	MoDem	0	https://fr.wikipedia.org/wiki/Jacqueline_Gourault	.
 10	Dupond-Moretti	Éric	H		1	https://fr.wikipedia.org/wiki/%C3%89ric_Dupond-Moretti	Garde des Sceaux, ministre de la Justice
-11	Bachelot	Roselyne	F	DVD	1	https://fr.wikipedia.org/wiki/Roselyne_Bachelot	Ministre de la Culture
-12	Lecornu	Sébastien	H	REM	1	https://fr.wikipedia.org/wiki/S%C3%A9bastien_Lecornu	Ministre des Outre-mer
-13	Véran	Olivier	H	REM	1	https://fr.wikipedia.org/wiki/Olivier_V%C3%A9ran	Ministre des Solidarités et de la Santé
-14	Girardin	Annick	F	MR	1	https://fr.wikipedia.org/wiki/Annick_Girardin	Ministre de la Mer
-15	Vidal	Frédérique	F	REM	1	https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9rique_Vidal	Ministre de l'Enseignement supérieur, de la Recherche et de l'Innovation
-16	Denormandie	Julien	H	REM	1	https://fr.wikipedia.org/wiki/Julien_Denormandie	Ministre de l'Agriculture et de l'Alimentation
-17	de Montchalin	Amélie	F	REM	1	https://fr.wikipedia.org/wiki/Am%C3%A9lie_de_Montchalin	Ministre de la Transformation et de la Fonction publique
-18	Fesneau	Marc	H	MoDem	1	https://fr.wikipedia.org/wiki/Marc_Fesneau	Ministre chargé des Relations avec le Parlement et de la Participation citoyenne
-19	Moreno	Elisabeth	F		1	https://fr.wikipedia.org/wiki/Elisabeth_Moreno	Ministre chargée de l'Égalité entre les femmes et les hommes, de la Diversité et de l'Égalité des chances
-20	Riester	Franck	H	Agir	1	https://fr.wikipedia.org/wiki/Franck_Riester	Ministre chargé du Commerce extérieur et de l'Attractivité
-21	Wargon	Emmanuelle	F	DVG	1	https://fr.wikipedia.org/wiki/Emmanuelle_Wargon	Ministre chargée du Logement
-22	Djebbari	Jean-Baptiste	H	REM	1	https://fr.wikipedia.org/wiki/Jean-Baptiste_Djebbari	Ministre chargé des Transports
-23	Dussopt	Olivier	H	DVG	1	https://fr.wikipedia.org/wiki/Olivier_Dussopt	Ministre chargé des Comptes publics
-24	Pannier-Runacher	Agnès	F	REM	1	https://fr.wikipedia.org/wiki/Agn%C3%A8s_Pannier-Runacher	Ministre chargée de l'Industrie
-25	Griset	Alain	H		1	https://fr.wikipedia.org/wiki/Alain_Griset	Ministre chargé des Petites et moyennes entreprises
-26	Maracineanu	Roxana	F	DVG	1	https://fr.wikipedia.org/wiki/Roxana_Maracineanu	Ministre chargée des Sports
-27	Darrieussecq	Geneviève	F	MoDem	1	https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Darrieussecq	Ministre chargée de la Mémoire et des Anciens combattants
-28	Schiappa	Marlène	F	REM	1	https://fr.wikipedia.org/wiki/Marl%C3%A8ne_Schiappa	Ministre chargée de la Citoyenneté
-29	Klinkert	Brigitte	F	DVD	1	https://fr.wikipedia.org/wiki/Brigitte_Klinkert	Ministre chargée de l'Insertion
-30	Hai	Nadia	F	LREM	1	https://fr.wikipedia.org/wiki/Nadia_Hai	Ministre chargée de la Ville
-31	Bourguignon	Brigitte	F	LREM	1	https://fr.wikipedia.org/wiki/Brigitte_Bourguignon	Ministre chargée de l'Autonomie
-32	Attal	Gabriel	H	REM	1	https://fr.wikipedia.org/wiki/Gabriel_Attal	Secrétaire d'État, porte-parole du Gouvernement
+11	Bachelot	Roselyne	F	DVD	0	https://fr.wikipedia.org/wiki/Roselyne_Bachelot	.
+12	Lecornu	Sébastien	H	REM	1	https://fr.wikipedia.org/wiki/S%C3%A9bastien_Lecornu	Ministre des Armées
+13	Véran	Olivier	H	TDP	1	https://fr.wikipedia.org/wiki/Olivier_V%C3%A9ran	Ministre chargé du Renouveau démocratique, Porte-parole du gouvernement
+14	Girardin	Annick	F	MR	0	https://fr.wikipedia.org/wiki/Annick_Girardin	.
+15	Vidal	Frédérique	F	REM	0	https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9rique_Vidal	.
+16	Denormandie	Julien	H	REM	0	https://fr.wikipedia.org/wiki/Julien_Denormandie	.
+17	de Montchalin	Amélie	F	REM	0	https://fr.wikipedia.org/wiki/Am%C3%A9lie_de_Montchalin	.
+18	Fesneau	Marc	H	MoDem	1	https://fr.wikipedia.org/wiki/Marc_Fesneau	Ministre de l'Agriculture et de la Souveraineté alimentaire
+19	Moreno	Elisabeth	F		0	https://fr.wikipedia.org/wiki/Elisabeth_Moreno	.
+20	Riester	Franck	H	Agir	1	https://fr.wikipedia.org/wiki/Franck_Riester	Ministre délégué chargé des Relations avec le Parlement
+21	Wargon	Emmanuelle	F	DVG	0	https://fr.wikipedia.org/wiki/Emmanuelle_Wargon	.
+22	Djebbari	Jean-Baptiste	H	REM	0	https://fr.wikipedia.org/wiki/Jean-Baptiste_Djebbari	.
+23	Dussopt	Olivier	H	TDP	1	https://fr.wikipedia.org/wiki/Olivier_Dussopt	Ministre du Travail, du Plein emploi et de l'Insertion
+24	Pannier-Runacher	Agnès	F	TDP	1	https://fr.wikipedia.org/wiki/Agn%C3%A8s_Pannier-Runacher	Ministre de la Transition énergétique
+25	Griset	Alain	H		0	https://fr.wikipedia.org/wiki/Alain_Griset	.
+26	Maracineanu	Roxana	F	DVG	0	https://fr.wikipedia.org/wiki/Roxana_Maracineanu	.
+27	Darrieussecq	Geneviève	F	MoDem	1	https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Darrieussecq	Ministre déléguée chargée des Personnes handicapées 
+28	Schiappa	Marlène	F	REM	1	https://fr.wikipedia.org/wiki/Marl%C3%A8ne_Schiappa	Secrétaire d'État chargée de l'Économie sociale et solidaire et de la Vie associative 
+29	Klinkert	Brigitte	F	DVD	0	https://fr.wikipedia.org/wiki/Brigitte_Klinkert	.
+30	Hai	Nadia	F	LREM	0	https://fr.wikipedia.org/wiki/Nadia_Hai	.
+31	Bourguignon	Brigitte	F	LREM	0	https://fr.wikipedia.org/wiki/Brigitte_Bourguignon	.
+32	Attal	Gabriel	H	REM	1	https://fr.wikipedia.org/wiki/Gabriel_Attal	Ministre délégué chargé des Comptes publics
 33	Philippe	Édouard	H	DVD	0	https://fr.wikipedia.org/wiki/%C3%89douard_Philippe	.
 34	de Rugy	François	H	REM	0	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Rugy	.
 35	Belloubet	Nicole	F	DVG	0	https://fr.wikipedia.org/wiki/Nicole_Belloubet	.
@@ -131,3 +131,32 @@ ID	Nom	Prénom	H/F	Parti	Gouvernement	Wikipedia	Poste
 130	Delaunay	Michèle	F	PS	0	https://fr.wikipedia.org/wiki/Mich%C3%A8le_Delaunay	.
 131	Cahuzac	Jérôme	H		0	https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Cahuzac	.
 132	Voynet	Dominique	F	EELV	0	https://fr.wikipedia.org/wiki/Dominique_Voynet	.
+133	Colonna	Catherine	F		1	https://fr.wikipedia.org/wiki/Catherine_Colonna	Ministre de l’Europe et des Affaires étrangères
+134	Ndiaye	Pap	H	PS	1	https://fr.wikipedia.org/wiki/Pap_Ndiaye	Ministre de l’Éducation nationale et de la Jeunesse
+135	Retailleau	Sylvie	F		1	https://fr.wikipedia.org/wiki/Sylvie_Retailleau	Ministre de l'Enseignement supérieur et de la Recherche
+136	Béchu	Christophe	H	HOR	1	https://fr.wikipedia.org/wiki/Christophe_B%C3%A9chu	Ministre de la Transition écologique et de la Cohésion des territoires
+137	Abdul-Malak	Rima	F		1	https://fr.wikipedia.org/wiki/Rima_Abdul-Malak	Ministre de la Culture
+138	Braun	François	H		1	https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Braun	Ministre de la Santé et de la Prévention
+139	Combe	Jean-Christophe	H		1	https://fr.wikipedia.org/wiki/Jean-Christophe_Combe	Ministre des Solidarités, de l'Autonomie et des Personnes handicapées
+140	Guerini	Stanislas	H	REM	1	https://fr.wikipedia.org/wiki/Stanislas_Guerini	Ministre de la Transformation et de la Fonction publiques
+141	Oudéa-Castéra	Amélie	F	REM	1	https://fr.wikipedia.org/wiki/Am%C3%A9lie_Oud%C3%A9a-Cast%C3%A9ra	Ministre des Sports et des Jeux olympiques et paralympiques
+142	Lonvis-Rome	Isabelle	F		1	https://fr.wikipedia.org/wiki/Isabelle_Lonvis-Rome	Ministre déléguée chargée de l'Égalité entre les femmes et les hommes, de la Diversité et de l'Égalité des chances
+143	Lescure	Roland	H	REM	1	https://fr.wikipedia.org/wiki/Roland_Lescure	Ministre délégué chargé de l'Industrie
+144	Barrot	Jean-Noël	H	MoDem	1	https://fr.wikipedia.org/wiki/Jean-No%C3%ABl_Barrot	Ministre délégué chargé de la Transition numérique et des Télécommunications 
+145	Grégoire	Olivia	F	REM	1	https://fr.wikipedia.org/wiki/Olivia_Gr%C3%A9goire	Ministre déléguée chargée des Petites et Moyennes Entreprises, du Commerce, de l'Artisanat et du Tourisme 
+146	Cayeux	Caroline	F	DVD	1	https://fr.wikipedia.org/wiki/Caroline_Cayeux	Ministre déléguée chargée des Collectivités territoriales
+147	Carenco	Jean-François	H		1	https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Carenco	Ministre délégué chargé des Outre-Mer 
+148	Becht	Olivier	H	Agir	1	https://fr.wikipedia.org/wiki/Olivier_Becht	Ministre délégué chargé du Commerce extérieur, de l'Attractivité et des Français de l'étranger
+149	Grandjean	Carole	F	REM	1	https://fr.wikipedia.org/wiki/Carole_Grandjean	Ministre déléguée chargée de l'Enseignement et de la Formation professionnelle 
+150	Beaune	Clément	H	TDP	1	https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Beaune	Ministre délégué chargé des Transports 
+151	Klein	Olivier	H	PS	1	https://fr.wikipedia.org/wiki/Olivier_Klein	Ministre délégué chargé de la Ville et du Logement 
+152	Firmin-Le Bodo	Agnès	F	HOR	1	https://fr.wikipedia.org/wiki/Agn%C3%A8s_Firmin-Le_Bodo	Ministre déléguée chargée de l'Organisation territoriale et des Professions de santé 
+153	Caubel	Charlotte	F		1	https://fr.wikipedia.org/wiki/Charlotte_Caubel	Secrétaire d'État chargée de l'Enfance 
+154	Berville	Hervé	H	REM	1	https://fr.wikipedia.org/wiki/Herv%C3%A9_Berville	Secrétaire d'État chargé de la Mer
+155	Backès	Sonia	H	LR	1	https://fr.wikipedia.org/wiki/Sonia_Back%C3%A8s	Secrétaire d'État chargée de la Citoyenneté 
+156	Boone	Laurence	F		1	https://fr.wikipedia.org/wiki/Laurence_Boone	Secrétaire d'État chargée de l'Europe 
+157	Zacharopoulou	Chrysoula 	F	REM	1	https://fr.wikipedia.org/wiki/Chrysoula_Zacharopoulou	Secrétaire d'État chargée du Développement, de la Francophonie et des Partenariats internationaux
+158	El Haïry	Sarah	F	MoDem	1	https://fr.wikipedia.org/wiki/Sarah_El_Ha%C3%AFry	Secrétaire d'État chargée de la Jeunesse et du Service national universel 
+159	Mirallès	Patricia	F	TDP	1	https://fr.wikipedia.org/wiki/Patricia_Mirall%C3%A8s	Secrétaire d'État chargée des Anciens combattants et de la Mémoire 
+160	Couillard	Bérangère	F	REM	1	https://fr.wikipedia.org/wiki/B%C3%A9rang%C3%A8re_Couillard	Secrétaire d'État chargée de l'Écologie 
+161	Faure	Dominique	F	PRV	1	https://fr.wikipedia.org/wiki/Dominique_Faure	Secrétaire d'État chargée de la Ruralité 

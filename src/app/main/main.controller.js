@@ -99,12 +99,18 @@ export class MainController {
                 return 'à La République en marche';
             case 'PRG':
                 return 'au Parti radical de gauche';
+            case 'PRV':
+                return 'au Parti radical';
             case 'UDI':
                 return 'à l\'Union des démocrates et indépendants';
             case 'EELV':
                 return 'à Europe Écologie Les Verts';
             case 'MR':
                 return 'au Mouvement Radical';
+            case 'TDP':
+                return 'à Territoires de progrès';
+            case 'HOR':
+                return 'à Horizons';
             default:
                 return `au ${party}`;
         }
