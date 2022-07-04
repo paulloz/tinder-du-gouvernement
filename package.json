@@ -42,7 +42,7 @@
     "http-proxy-middleware": "^0.19.1",
     "jade": "~1.11.0",
     "karma-ng-html2js-preprocessor": "~0.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "main-bower-files": "^2.13.3",
     "ng-annotate-loader": "0.0.10",
     "uglify-save-license": "~0.4.1",
